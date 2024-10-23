@@ -1,36 +1,29 @@
-<h1>**CV.JSON DE MIDUDEV COMO GUIA:**</h1></h1>
-
 {
   "basics": {
-    "name": "Miguel Ángel Durán",
-    "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
-    "image": "/me.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
+    "name": "Emerson Quijada Rafael",
+    "label": "Estudiante de Ingeniería de Sistemas en la Universidad Continental, con conocimientos en Java y Spring Boot.",
+    "image": "/me.jpg",
+    "email": "emersontec147@gmail.com",
+    "phone": "+51 935611092",
     "url": "https://midu.dev",
-    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "summary": "Me especializo en el desarrollo backend y la administración de bases de datos, con un interés marcado en microservicios, computación en la nube, DevOps, seguridad informática y Big Data. Poseo una base técnica sólida y estoy comprometido con seguir desarrollando mis habilidades para contribuir en proyectos innovadores y escalables dentro del entorno tecnológico. Vivo en Huancayo, Junin, Peru. He desarrollado proyectos personales y universitarios que han enriquecido mis habilidades técnicas y de gestión. ",
     "location": {
       "address": "",
       "postalCode": "08820",
-      "city": "el Prat de Llobregat",
+      "city": "Huancayo",
       "countryCode": "ES",
-      "region": "España"
+      "region": "Peru"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
-      },
-      {
-        "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
+        "username": "Emerson Quijada Rafael",
+        "url": "https://linkedin.com/in/migattedev/"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "Emerson Quijada Rafael",
+        "url": "https://github.com/Emerson147"
       }
     ]
   },
