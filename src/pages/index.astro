@@ -8,17 +8,24 @@ import Hero from '@/components/sections/Hero.astro';
 import Projects from '@/components/sections/Projects.astro';
 import Skills from '@/components/sections/Skills.astro';
 import KeyboardManager from '@/components/KeyboardManager.astro';
-
+import ThemeIcon from '@/components/ThemeIcon.astro';
 ---
 
 <Layout title="Minimalist Portfolio">
+
+	<header>
+	<nav>
+		<ThemeIcon />
+	</nav>
+	</header>
+
 	<main>
 		<Hero />
-		<About />
 		<Experience />
 		<Education />
 		<Projects />
 		<Skills />
+		<About />
 	</main>
 
 
@@ -27,9 +34,14 @@ import KeyboardManager from '@/components/KeyboardManager.astro';
 
 <style>
 	main {
-		padding: 4rem;
+		padding: 2rem;
 		margin: auto;
 		width: 100%;
 	}
 	
+	@media (width <= 700px) {
+    main {
+      padding: 2rem;
+    }
+  }
 </style>

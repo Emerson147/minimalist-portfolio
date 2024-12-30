@@ -6,7 +6,7 @@
     "email": "emersontec147@gmail.com",
     "phone": "+51 935611092",
     "url": "https://midu.dev",
-    "summary": "Me especializo en el desarrollo backend y la administración de bases de datos, con un interés marcado en microservicios, computación en la nube, DevOps, seguridad informática y Big Data. Poseo una base técnica sólida y estoy comprometido con seguir desarrollando mis habilidades para contribuir en proyectos innovadores y escalables dentro del entorno tecnológico. Vivo en Huancayo, Junin, Peru. He desarrollado proyectos personales y universitarios que han enriquecido mis habilidades técnicas y de gestión. ",
+    "summary": "Soy estudiante de Ingeniería de Sistemas en la Universidad Continental, cursando el octavo ciclo tras convalidar estudios técnicos. Cuento con experiencia como desarrollador backend junior, dominando Java, Spring Boot y SQL Server, así como tecnologías frontend como HTML, CSS, JavaScript, Angular y Astro. Además, tengo sólidos conocimientos en soporte técnico, lo que me ha permitido desarrollar habilidades en diagnóstico y resolución de problemas. Con conocimientos intermedios en Linux, me especializo en microservicios, computación en la nube, DevOps, seguridad informática y Big Data. Mi enfoque es aprender rápidamente, adaptarme a nuevos desafíos tecnológicos y diseñar soluciones escalables e innovadoras que marquen la diferencia.",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -17,47 +17,47 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "Emerson Quijada Rafael",
-        "url": "https://linkedin.com/in/migattedev/"
+        "username": "migattedev",
+        "url": "www.linkedin.com/in/migattedev"
+      },
+      {
+        "network": "X",
+        "username": "midudev",
+        "url": "https://x.com/midudev"
       },
       {
         "network": "GitHub",
-        "username": "Emerson Quijada Rafael",
-        "url": "https://github.com/Emerson147"
+        "username": "midudev",
+        "url": "https://github.com/midudev"
       }
     ]
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
-      "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+      "name": "Alarcon Lozano Ingenieros",
+      "position": "Asistente de Soporte Técnico y Redes",
+      "startDate": "2019-09-01",
+      "endDate": "2020-03-01",
+      "summary": "Brindé soporte técnico integral en hardware y software, gestioné el diagnóstico y resolución de fallas, así como respaldos preventivos. También abordé problemas de redes, dispositivos finales y aplicaciones, proporcionando informes detallados sobre el estado del sistema.",
       "highlights": [
-        "Started the company"
+        "Diagnóstique y solucióne de fallas de hardware",
+        "Emisión de reportes sobre problemas de sistema",
+        "Soporte en redes y aplicaciones de Office 365",
+        "Backup preventivo y soporte a dispositivos finales"
       ]
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+      "name": "Lan Center Batlenet",
+      "position": "Ayudante de Técnico Informático",
+      "startDate": "2023-01-01",
+      "endDate": "2023-03-16",
+      "summary": "Colaboré en tareas de soporte técnico e instalación de sistemas, brindando asistencia en la configuración y mantenimiento de equipos informáticos. Participé en la resolución de incidencias técnicas y la atención a usuarios, contribuyendo al óptimo funcionamiento de la infraestructura tecnológica.",
       "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
-      "highlights": [
-        "Started the company"
+        "Asistencia en la instalación y configuración de equipos informáticos.",
+        "Mantenimiento preventivo y correctivo de hardware y software.",
+        "Atención y soporte técnico a usuarios finales.",
+        "Resolución de incidencias técnicas en tiempo real.",
+        "Colaboración en la organización y actualización del inventario de equipos."
       ]
     }
   ],
@@ -73,17 +73,68 @@
     ]
   }],
   "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
-    "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
+    "institution": "Universidad Continental",
+    "area": "Ingeniería de Sistemas e Informática",
+    "studyType": "Grado de Estudios",
+    "startDate": "2021-01-01",
+    "endDate": "2026-01-01",
+    "aptitudes": [
+      "Sistemas de la Informacion",
+      "Gestión de proyectos",
+      "Contruccion y pruebas de Software",
+      "Arquitectura del Computador",
+      "Arquitectura de Software",
+      "CCNA 1"
+
     ]
-  }],
+  },
+    {
+      "institution": "Mitocode",
+      "area": "Java 17 Backend Developer, Ingeniería de Software",
+      "studyType": "Certificación",
+      "startDate": "2023-01-01",
+      "endDate": "2023-04-01",
+      "score": "19",
+      "aptitudes": [
+        "Programación Funcional",
+        "Spring Boot y desarrollo de API REST",
+        "Spring Data JPA - Gestión de bases de datos",
+        "Hilos y concurrencia",
+        "Pruebas unitarias con JUnit y Mock",
+        "Spring Security y consumo de APIs",
+        "Integraciones(Angular)"
+      ]
+    },
+    {
+      "institution": "CIBERTEC",
+      "area": "Técnico en Computación y Soluciones Informáticas",
+      "studyType": "Técnico Titulado",
+      "startDate": "2015-09-01",
+      "endDate": "2019-12-01",
+      "aptitudes": [
+        "Soporte técnico en hardware y software",
+        "Desarrollo de aplicaciones web (Programacion Java)",
+        "Desarrollo de aplicaciones Android (Programacion Java)",
+        "Programación orientada a objetos (POO)",
+        "Base de datos SQL Server",
+        "Puebas de Software e proyectos Integrador"
+      ]
+    },
+    {
+      "institution": "Universidad Nacional de Ingeniería",
+      "area": "Especialista en Soporte Técnico TI, Tecnología de la Información",
+      "studyType": "Especialización",
+      "startDate": "2019-03-01",
+      "endDate": "2019-11-01",
+      "score": "19",
+      "aptitudes": [
+        "Redes",
+        "Soporte técnico",
+        "Instalación de software",
+        "Instalación de hardware"
+      ]
+    }
+  ],
   "awards": [{
     "title": "Award",
     "date": "2014-11-01",
@@ -205,35 +256,26 @@
   }],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "Importaciones DEN",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "description": "Ecommerce realizado para una tienda de ropa importadas.",
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        "Elige tu propio estilo",
+        "En desarrollo, pasarela de pagos"
       ],
-      "url": "https://mars.codes"
+      "url": "https://importaciones-den.vercel.app/"
     },
     {
-      "name": "AdventJS",
+      "name": "Portafolio Minimalist",
       "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "description": "Portafolio personal minimalista construido con Astro",
       "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
+        "Diseño minimalista y elegante",
+        "Optimizado para SEO",
+        "Modo oscuro/claro"
       ],
-      "url": "https://adventjs.dev"
-    },
-    {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
-      ],
-      "url": "https://codember.dev"
+      "url": "https://portafolio-migatte.vercel.app/",
+      "github": "https://github.com/migatteDev/portafolio"
     },
     {
       "name": "codi.link",

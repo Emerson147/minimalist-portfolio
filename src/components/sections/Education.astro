@@ -1,7 +1,87 @@
 ---
 import Section from "../Section.astro";
+
+import { education } from "@cv"
+
 ---
 
 <Section title="Education">
+  <ul>
+    {
+      education.map(
+        ({ institution, startDate, endDate, area, aptitudes, studyType}) => {
+          const startYear = new Date(startDate).getFullYear()
+          const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actual"
+          const years = `${startYear} - ${endYear}`
 
+          return (
+            <li>
+              <article>
+                <header>
+                  <div>
+                    <h3>{institution}</h3>
+                  </div>
+                <time>{years}</time>
+                </header>
+
+                <footer>
+                  <p>{area}</p>
+                  {studyType && (
+                    <p><strong>Tipo de estudio:</strong> {studyType}</p>
+                  )}
+                  <p><strong>Aptitudes:</strong> </p>
+                    {aptitudes && aptitudes.length > 0  && (
+                      <ul>
+                        {aptitudes.map((aptitude) => (
+                        <li>{aptitude}</li>
+                      ))}
+                    </ul>
+                  )}
+                </footer>
+              </article>
+            </li>
+          )
+        }
+      )
+    }
+  </ul>
 </Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    padding: 0;
+    margin: 0;
+  }
+
+  article h3 {
+    font-weight: 600;
+    color: #111;
+  }
+
+  article ul {
+    margin-top: 8px;
+    list-style-type: disc;
+    padding-left: 30px;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+  }
+
+  time { 
+    color: #555;
+    font-size: 0.85rem;
+    min-width: 85px;
+  }
+
+
+
+</style>
