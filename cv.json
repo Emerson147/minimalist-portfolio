@@ -6,7 +6,7 @@
     "email": "emersontec147@gmail.com",
     "phone": "+51 935611092",
     "url": "https://midu.dev",
-    "summary": "Soy estudiante de Ingeniería de Sistemas en la Universidad Continental, cursando el octavo ciclo tras convalidar estudios técnicos. Cuento con experiencia como desarrollador backend junior, dominando Java, Spring Boot y SQL Server, así como tecnologías frontend como HTML, CSS, JavaScript, Angular y Astro. Además, tengo sólidos conocimientos en soporte técnico, lo que me ha permitido desarrollar habilidades en diagnóstico y resolución de problemas. Con conocimientos intermedios en Linux, me especializo en microservicios, computación en la nube, DevOps, seguridad informática y Big Data. Mi enfoque es aprender rápidamente, adaptarme a nuevos desafíos tecnológicos y diseñar soluciones escalables e innovadoras que marquen la diferencia.",
+    "summary": "Soy estudiante de Ingeniería de Sistemas en la Universidad Continental, cursando el septimo ciclo. Tengo experiencia como desarrollador backend junior, manejando Java, Spring Boot y SQL Server, además de tecnologías frontend como Angular y Astro. Poseo conocimientos en soporte técnico, Linux, y estoy enfocado en microservicios, computación en la nube, DevOps, y Big Data. Me adapto rápidamente a nuevos desafíos y diseño soluciones escalables e innovadoras.",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -27,8 +27,8 @@
       },
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "emersontec",
+        "url": "https://github.com/Emerson147"
       }
     ]
   },
@@ -76,8 +76,8 @@
     "institution": "Universidad Continental",
     "area": "Ingeniería de Sistemas e Informática",
     "studyType": "Grado de Estudios",
-    "startDate": "2021-01-01",
-    "endDate": "2026-01-01",
+    "startDate": "2022-07-18",
+    "endDate": null,
     "aptitudes": [
       "Sistemas de la Informacion",
       "Gestión de proyectos",
@@ -266,47 +266,54 @@
       "url": "https://importaciones-den.vercel.app/"
     },
     {
-      "name": "Portafolio Minimalist",
+      "name": "Licorería E&R",
       "isActive": true,
-      "description": "Portafolio personal minimalista construido con Astro",
+      "description": "E-commerce de licores premium desarrollado con Next.js y Tailwind CSS, incluyendo sistema de carrito de compras y pasarela de pagos",
       "highlights": [
-        "Diseño minimalista y elegante",
-        "Optimizado para SEO",
-        "Modo oscuro/claro"
+        "Catálogo de productos con filtros y búsqueda",
+        "Carrito de compras interactivo",
+        "Diseño responsive y moderno",
+        "Integración con sistema de pagos",
+        "Panel de administración de productos"
       ],
-      "url": "https://portafolio-migatte.vercel.app/",
-      "github": "https://github.com/migatteDev/portafolio"
+      "url": "https://licoreria-e-r.vercel.app/",
+      "github": "https://github.com/Emerson147/licoreria-er"
     },
     {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
+      "name": "API REST Todo App",
+      "isActive": false,
+      "description": "Aplicación de gestión de tareas desarrollada con Spring Boot y Angular, implementando arquitectura REST",
       "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
+        "CRUD completo de tareas",
+        "Autenticación JWT",
+        "Documentación con Swagger",
+        "Pruebas unitarias con JUnit"
       ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
+
+      "github": "https://github.com/Emerson147/ApiTodoApp"
     },
     {
-      "name": "Pruebas Técnicas",
+      "name": "Effect Liquid",
       "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
+      "description": "Pagina con imagenes y un desplamiento con efecto de agua, se hizo pruebas con gsap",
       "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
+        "Diseño elegante y moderno",
+        "Efecto liquido",
+        "Modo Oscuro"
       ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
+      "url": "https://transitions-aqua.netlify.app/",
+      "github": "https://github.com/Emerson147/EffectLiquid"
     },
     {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "https://miduconf.com"
+    "name": "Parallax Selva",
+    "isActive": true,
+    "description": "Sitio web interactivo con efectos parallax, implementado con HTML, CSS y JavaScript",
+    "highlights": [
+      "Efectos de parallax suaves",
+      "Animaciones personalizadas",
+      "Diseño inmersivo con temática selvática"    ],
+    "url": "https://parallax-selva.netlify.app",
+    "github": "https://github.com/Emerson147/Parallax3DEffect"
     }
   ]
 }
