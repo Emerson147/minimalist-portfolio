@@ -8,7 +8,7 @@ import { work } from "@cv"
   <ul>
     {
       work.map(
-        ({ name, startDate, endDate, position, summary, highlights }) => {
+        ({ name, startDate, endDate, position, summary }) => {
           const startYear = new Date(startDate).getFullYear()
           const endYear =
             endDate != null ? new Date(endDate).getFullYear() : "Actual"
@@ -19,9 +19,7 @@ import { work } from "@cv"
                 <header>
                   <div>
                     <h3>
-                      {/* <a href="#" title={`Ver ${name}`} target="_blank"> */}
-                        {name}
-                      </a>
+                      {name}
                     </h3>
                     <h4>{position}</h4>
                   </div>
