@@ -6,7 +6,7 @@
     "email": "emersontec147@gmail.com",
     "phone": "+51 935611092",
     "url": "https://midu.dev",
-    "summary": "Soy estudiante de Ingeniería de Sistemas en la Universidad Continental, cursando el septimo ciclo. Tengo experiencia como desarrollador backend junior, manejando Java, Spring Boot y SQL Server, además de tecnologías frontend como Angular y Astro. Poseo conocimientos en soporte técnico, Linux, y estoy enfocado en microservicios, computación en la nube, DevOps, y Big Data. Me adapto rápidamente a nuevos desafíos y diseño soluciones escalables e innovadoras.",
+    "summary": "Estudiante de Ingeniería de Sistemas y técnico certificado en Computación y Soluciones Informáticas, con experiencia en desarrollo backend (Java, Spring Boot, SQL Server) y frontend (Angular, Astro). Especializado en la creación de aplicaciones web escalables mediante arquitecturas de microservicios y tecnologías cloud-native (AWS, Docker). Apasionado por integrar prácticas DevOps (CI/CD, automatización) para optimizar el ciclo de desarrollo. Busco oportunidades donde pueda aportar soluciones técnicas innovadoras y seguir creciendo profesionalmente en entornos colaborativos orientados a la alta performance.",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -34,19 +34,6 @@
   },
   "work": [
     {
-      "name": "Alarcon Lozano Ingenieros",
-      "position": "Asistente de Soporte Técnico y Redes",
-      "startDate": "2019-09-01",
-      "endDate": "2020-03-01",
-      "summary": "Brindé soporte técnico integral en hardware y software, gestioné el diagnóstico y resolución de fallas, así como respaldos preventivos. También abordé problemas de redes, dispositivos finales y aplicaciones, proporcionando informes detallados sobre el estado del sistema.",
-      "highlights": [
-        "Diagnóstique y solucióne de fallas de hardware",
-        "Emisión de reportes sobre problemas de sistema",
-        "Soporte en redes y aplicaciones de Office 365",
-        "Backup preventivo y soporte a dispositivos finales"
-      ]
-    },
-    {
       "name": "Lan Center Batlenet",
       "position": "Ayudante de Técnico Informático",
       "startDate": "2023-01-01",
@@ -59,7 +46,21 @@
         "Resolución de incidencias técnicas en tiempo real.",
         "Colaboración en la organización y actualización del inventario de equipos."
       ]
+    },
+    {
+      "name": "Alarcon Lozano Ingenieros",
+      "position": "Asistente de Soporte Técnico y Redes",
+      "startDate": "2019-09-01",
+      "endDate": "2020-03-01",
+      "summary": "Brindé soporte técnico integral en hardware y software, gestioné el diagnóstico y resolución de fallas, así como respaldos preventivos. También abordé problemas de redes, dispositivos finales y aplicaciones, proporcionando informes detallados sobre el estado del sistema.",
+      "highlights": [
+        "Diagnóstique y solucióne de fallas de hardware",
+        "Emisión de reportes sobre problemas de sistema",
+        "Soporte en redes y aplicaciones de Office 365",
+        "Backup preventivo y soporte a dispositivos finales"
+      ]
     }
+   
   ],
   "volunteer": [{
     "organization": "Organization",
