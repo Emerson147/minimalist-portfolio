@@ -8,7 +8,7 @@ import { work } from "@cv"
   <ul>
     {
       work.map(
-        ({ name, startDate, endDate, position, summary }) => {
+        ({ name, startDate, endDate, position, summary, highlights }) => {
           const startYear = new Date(startDate).getFullYear()
           const endYear =
             endDate != null ? new Date(endDate).getFullYear() : "Actual"
@@ -20,8 +20,8 @@ import { work } from "@cv"
                   <div>
                     <h3>
                       {name}
-                    </h3>
                     <h4>{position}</h4>
+                    </h3>
                   </div>
 
                   <div>
@@ -41,11 +41,11 @@ import { work } from "@cv"
 
                 <footer>
                   <p>{summary}</p>
-                   {/* <ul>
+                   <ul>
                      {highlights.map(highlight => (
                        <li>{highlight}</li>
                      ))}
-                   </ul> */}
+                   </ul>
                 </footer>
               </article>
             </li>
@@ -64,12 +64,28 @@ import { work } from "@cv"
   }
 
   article ul {
-      margin-top: 10px;
-      list-style-type: disc;
-      padding-left: 30px;
-      font-size: 0.9rem;
-      color: #666;
-  }
+  margin-top: 12px;
+  padding-left: 20px;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: #555;
+  list-style: none;
+}
+
+article ul li {
+  position: relative;
+  margin-bottom: 6px;
+  padding-left: 18px;
+}
+
+article ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #4CAF50; /* o tu color de acento */
+  font-size: 0.75rem;
+}
 
   article h3 {
     font-weight: 600;
@@ -130,6 +146,7 @@ import { work } from "@cv"
     z-index: 99999;
     visibility: hidden;
     border-radius: 6px;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
   }
 
   [data-title] {

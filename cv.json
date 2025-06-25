@@ -29,33 +29,50 @@
   },
   "work": [
     {
-      "name": "Lan Center Batlenet",
-      "position": "Ayudante de Técnico Informático",
-      "startDate": "2023-01-01",
-      "endDate": "2023-03-16",
-      "summary": "Colaboré en tareas de soporte técnico e instalación de sistemas, brindando asistencia en la configuración y mantenimiento de equipos informáticos. Participé en la resolución de incidencias técnicas y la atención a usuarios, contribuyendo al óptimo funcionamiento de la infraestructura tecnológica.",
+      "name": "Calzados La Peruanita",
+      "position": "Desarrollador Full Stack",
+      "startDate": "2024-12-23",
+      "endDate": "2025-06-12",
+      "summary": "Diseñé e implementé un sistema completo de ventas e inventario para una tienda de calzado, usando Angular, Spring Boot y PostgreSQL. El sistema permite gestionar productos, colores, tallas, ventas, pedidos y facturación, con despliegue en Vercel y Render.",
       "highlights": [
-        "Asistencia en la instalación y configuración de equipos informáticos.",
-        "Mantenimiento preventivo y correctivo de hardware y software.",
-        "Atención y soporte técnico a usuarios finales.",
-        "Resolución de incidencias técnicas en tiempo real.",
-        "Colaboración en la organización y actualización del inventario de equipos."
+        "Desarrollo del backend con Spring Boot y PostgreSQL",
+        "Diseño y desarrollo del frontend con Angular",
+        "Gestión jerárquica de inventario: producto → color → talla",
+        "Módulos de ventas, facturación, clientes y reportes",
+        "Despliegue en la nube: Render (backend) y Vercel (frontend)",
+        "Repositorio backend: https://github.com/Emerson147/gestion-inventario-ely",
+        "Repositorio frontend: https://github.com/Emerson147/gestion-inventario-frontend",
+        "Demo: https://gestion-inventario-frontend.vercel.app/"
       ]
     },
     {
       "name": "Alarcon Lozano Ingenieros",
       "position": "Asistente de Soporte Técnico y Redes",
-      "startDate": "2019-09-01",
-      "endDate": "2020-03-01",
-      "summary": "Brindé soporte técnico integral en hardware y software, gestioné el diagnóstico y resolución de fallas, así como respaldos preventivos. También abordé problemas de redes, dispositivos finales y aplicaciones, proporcionando informes detallados sobre el estado del sistema.",
+      "startDate": "2022-06-12",
+      "endDate": "2023-06-12",
+      "summary": "Brindé soporte técnico en hardware, software y redes, encargándome del diagnóstico y resolución de fallas, mantenimiento preventivo y respaldo de sistemas. También generé reportes detallados sobre el estado de los equipos y sistemas informáticos.",
       "highlights": [
-        "Diagnóstique y solucióne de fallas de hardware",
-        "Emisión de reportes sobre problemas de sistema",
-        "Soporte en redes y aplicaciones de Office 365",
-        "Backup preventivo y soporte a dispositivos finales"
+        "Diagnóstico y solución de fallas de hardware y software.",
+        "Elaboración de reportes técnicos sobre problemas del sistema.",
+        "Soporte en redes, configuración de routers y conectividad.",
+        "Gestión de respaldos y soporte a dispositivos finales."
+      ]
+    },
+    {
+      "name": "Lan Center Batlenet",
+      "position": "Ayudante de Técnico Informático",
+      "startDate": "2020-05-22",
+      "endDate": "2021-06-12",
+      "summary": "Apoyé en la instalación, mantenimiento y soporte técnico de equipos informáticos. Brindé atención directa a usuarios, resolviendo incidencias en tiempo real y colaborando en la gestión del inventario tecnológico.",
+      "highlights": [
+        "Instalación y configuración de equipos de cómputo.",
+        "Mantenimiento preventivo y correctivo de hardware/software.",
+        "Atención técnica a usuarios y resolución de incidencias.",
+        "Apoyo en cableado estructurado y conectividad local.",
+        "Organización y actualización del inventario de equipos."
       ]
     }
-   
+
   ],
   "volunteer": [{
     "organization": "Organization",
@@ -68,11 +85,12 @@
       "Awarded 'Volunteer of the Month'"
     ]
   }],
-  "education": [{
+  "education": [
+    {
     "institution": "Universidad Continental",
     "area": "Ingeniería de Sistemas e Informática",
     "studyType": "Grado de Estudios",
-    "startDate": "2022-07-18",
+    "startDate": "2023-07-18",
     "endDate": null,
     "aptitudes": [
       "Sistemas de la Informacion",
@@ -252,9 +270,34 @@
   }],
   "projects": [
     {
+      "name": "La Peruanita",
+      "isActive": true,
+      "description": "Sistema web de ventas y gestión de calzado para hombres, mujeres y niños, desarrollado con Spring Boot, Angular y PostgreSQL. Administra distintos tipos de calzado (zapatillas, zapatos de vestir, tacones, etc.) mediante una estructura jerárquica: producto → color → talla.",
+      "highlights": [
+        "Gestión integral de inventario, ventas, clientes, facturación, pedidos y reportes.",
+        "Frontend desarrollado en Angular, backend en Spring Boot y base de datos PostgreSQL.",
+        "Despliegue en la nube: Vercel (frontend) y Render (backend)."
+      ],
+      "url": "https://gestion-inventario-frontend.vercel.app/",
+      "github": "https://github.com/Emerson147/gestion-inventario-ely"
+    },
+    {
+      "name": "Library Management System",
+      "isActive": true,
+      "description": "Sistema web para la gestión de préstamos y devoluciones de libros en bibliotecas, desarrollado como proyecto académico. Implementado con Spring Boot, Angular y MySQL, permite registrar libros, usuarios y controlar el historial de préstamos en tiempo real.",
+      "highlights": [
+        "Registro y búsqueda de libros por título, autor o categoría.",
+        "Control de préstamos, devoluciones y penalizaciones por retraso.",
+        "Gestión de usuarios y roles (bibliotecario y lector).",
+        "Desarrollado con Angular (frontend), Spring Boot (backend) y MySQL.",
+        "Despliegue en Render (backend) y Vercel (frontend)."
+      ],
+      "github": "https://github.com/Emerson147/library-management"
+    },    
+    {
       "name": "Importaciones DEN",
       "isActive": true,
-      "description": "Ecommerce realizado para una tienda de ropa importadas.",
+      "description": "Ecommerce realizado con Next.js y Tailwind CSS para una tienda de ropa importadas.",
       "highlights": [
         "Elige tu propio estilo",
         "En desarrollo, pasarela de pagos"
