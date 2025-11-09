@@ -1,11 +1,24 @@
 ---
 import GitHub from "@/icons/GitHub.astro"
 import Section from "../Section.astro"
+import { useTranslations } from '@/i18n/utils';
 
-import { projects } from "@cv"
+interface Props {
+  lang?: string;
+}
+
+const { lang = 'es' } = Astro.props;
+const t = useTranslations(lang as 'es' | 'en');
+
+// Cargar el CV según el idioma
+const cvModule = lang === 'en' 
+  ? await import('../../../cv.en.json')
+  : await import('../../../cv.json');
+
+const { projects } = cvModule.default;
 ---
 
-<Section title="Proyectos Academicos">
+<Section title={t('projects.title')} id="proyectos">
   <ul>
     {
       projects.map(
@@ -15,7 +28,7 @@ import { projects } from "@cv"
               <article>
                 <header>
                   <h3>
-                    <a href={url} target="_blank" title={`Ver el proyecto ${name}`}>
+                    <a href={url} target="_blank" title={`${t('projects.viewProject')} ${name}`}>
                       {name}
                     </a>
                     {isActive && <span>•</span>}
@@ -24,7 +37,7 @@ import { projects } from "@cv"
                         class="github-code-link"
                         href={github}
                         target="_blank"
-                        title={`Ver código fuente del proyecto ${name}`}
+                        title={`${t('projects.sourceCode')} ${name}`}
                       >
                         <GitHub />
                       </a>
@@ -62,6 +75,16 @@ import { projects } from "@cv"
     flex-direction: column;
     padding: 16px;
     height: 100%;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  :global(.dark) article {
+    border-color: #333;
+    background: #1f1f1f;
+  }
+
+  :global(.dark) article:hover {
+    border-color: #444;
   }
 
   article header {
@@ -74,10 +97,19 @@ import { projects } from "@cv"
 
   article a {
     color: #111;
+    transition: color 0.3s ease;
+  }
+
+  :global(.dark) article a {
+    color: #e5e5e5;
   }
 
   article a:hover {
     text-decoration: underline;
+  }
+
+  :global(.dark) article a:hover {
+    color: #4a9eff;
   }
 
   article p {
@@ -108,6 +140,12 @@ import { projects } from "@cv"
     font-size: 0.6rem;
     font-weight: 500;
     padding: 0.2rem 0.6rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  :global(.dark) footer span {
+    background: #2a2a2a;
+    color: #b0b0b0;
   }
 
   .github-code-link {
@@ -135,6 +173,10 @@ import { projects } from "@cv"
       border: none;
       box-shadow: 0 1px 1px #f2f2f2;
       padding: 0 0 16px 0;
+    }
+
+    :global(.dark) article {
+      box-shadow: 0 1px 1px #333;
     }
   }
 

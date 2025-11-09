@@ -1,25 +1,40 @@
 ---
 import Section from "../Section.astro";
+import { useTranslations } from '@/i18n/utils';
 
-import { education } from "@cv"
+interface Props {
+  lang?: string;
+}
+
+const { lang = 'es' } = Astro.props;
+const t = useTranslations(lang as 'es' | 'en');
+
+// Cargar el CV según el idioma
+const cvModule = lang === 'en' 
+  ? await import('../../../cv.en.json')
+  : await import('../../../cv.json');
+
+const { education } = cvModule.default;
 
 ---
 
-<Section title="Educacion">
+<Section title={t('education.title')} id="educacion">
   <ul>
     {
       education.map(
-        ({ institution, startDate, endDate, area, aptitudes, studyType}) => {
+        ({ institution, startDate, endDate, area, aptitudes, studyType, score}) => {
           const startYear = new Date(startDate).getFullYear()
-          const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actual"
+          const endYear = endDate != null ? new Date(endDate).getFullYear() : t('experience.current')
           const years = `${startYear} - ${endYear}`
+          const isCertification = studyType === "Certificación" || studyType === "Especialización" || studyType === "Certification" || studyType === "Specialization"
 
           return (
-            <li>
+            <li class={isCertification ? "certification" : ""}>
               <article>
                 <header>
                   <div>
                     <h3>{institution}</h3>
+                    {isCertification && <span class="badge">Certificación</span>}
                   </div>
                 <time>{years}</time>
                 </header>
@@ -28,6 +43,9 @@ import { education } from "@cv"
                   <p>{area}</p>
                   {studyType && (
                     <p><strong>Tipo de estudio:</strong> {studyType}</p>
+                  )}
+                  {score && (
+                    <p><strong>Calificación:</strong> {score}</p>
                   )}
                   {/* <p><strong>Aptitudes:</strong> </p>
                     {aptitudes && aptitudes.length > 0  && (
@@ -56,9 +74,56 @@ import { education } from "@cv"
     margin: 0;
   }
 
+  li.certification {
+    position: relative;
+  }
+
+  li.certification article {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 3px solid #2563eb;
+    padding: 12px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+
+  :global(.dark) li.certification article {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    border-left-color: #3b82f6;
+  }
+
+  li.certification article:hover {
+    transform: translateX(4px);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1);
+  }
+
+  :global(.dark) li.certification article:hover {
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
+  }
+
   article h3 {
     font-weight: 600;
     color: #111;
+    transition: color 0.3s ease;
+  }
+
+  :global(.dark) article h3 {
+    color: #f5f5f5;
+  }
+
+  .badge {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 500;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+
+  :global(.dark) .badge {
+    background: #3b82f6;
   }
 
   article ul {
@@ -68,6 +133,10 @@ import { education } from "@cv"
     font-size: 0.9rem;
     color: #666;
   }
+
+  :global(.dark) article ul {
+    color: #a0a0a0;
+  }
   
   header { 
     display: flex;
@@ -76,12 +145,37 @@ import { education } from "@cv"
     margin-bottom: 4px;
   }
 
+  header > div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
   time { 
     color: #555;
     font-size: 0.85rem;
     min-width: 85px;
+    transition: color 0.3s ease;
   }
 
+  :global(.dark) time {
+    color: #a0a0a0;
+  }
 
+  @media print {
+    li.certification article {
+      background: #f9fafb !important;
+      border-left-color: #2563eb !important;
+      box-shadow: none !important;
+      page-break-inside: avoid;
+    }
+
+    .badge {
+      background: #2563eb !important;
+      color: white !important;
+    }
+  }
+</style>
 
 </style>

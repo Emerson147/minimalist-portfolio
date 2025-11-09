@@ -1,0 +1,322 @@
+{
+  "basics": {
+    "name": "Emerson Quijada Rafael",
+    "label": "Computer Science Graduate | Full Stack Developer (Java/Angular)",
+    "image": "/me.jpg",
+    "email": "emersontec147@gmail.com",
+    "phone": "+51 935611092",
+    "url": "https://github.com/Emerson147",
+    "summary": "Computer Science Graduate and Systems Engineering student. Developer with experience in backend (Java, Spring Boot, SQL Server) and frontend (Angular, Astro). Specialized in creating scalable web applications through microservices architectures and cloud-native technologies (AWS, Docker). Passionate about integrating DevOps practices (CI/CD, automation) to optimize the development cycle. Seeking opportunities as a Junior Developer where I can contribute innovative technical solutions and continue growing professionally.",
+    "location": {
+      "address": "",
+      "postalCode": "12001",
+      "city": "Huancayo",
+      "countryCode": "PE",
+      "region": "Peru"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "migattedev",
+        "url": "https://linkedin.com/in/migattedev"
+      },
+      {
+        "network": "GitHub",
+        "username": "emersontec",
+        "url": "https://github.com/Emerson147"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Calzados La Peruanita",
+      "position": "Full Stack Developer",
+      "startDate": "2024-12-23",
+      "endDate": "2025-06-12",
+      "summary": "Designed and implemented a complete sales and inventory system for a footwear store, using Angular, Spring Boot, and PostgreSQL. The system allows managing products, colors, sizes, sales, orders, and invoicing, with deployment on Vercel and Render.",
+      "highlights": [
+        "Backend development with Spring Boot and PostgreSQL",
+        "Frontend design and development with Angular",
+        "Hierarchical inventory management: product → color → size",
+        "Sales, invoicing, customers, and reports modules",
+        "Cloud deployment: Render (backend) and Vercel (frontend)",
+        "Backend repository: https://github.com/Emerson147/gestion-inventario-ely",
+        "Frontend repository: https://github.com/Emerson147/gestion-inventario-frontend",
+        "Demo: https://gestion-inventario-frontend.vercel.app/"
+      ]
+    },
+    {
+      "name": "Alarcon Lozano Ingenieros",
+      "position": "Technical Support and Network Assistant",
+      "startDate": "2022-06-12",
+      "endDate": "2023-06-12",
+      "summary": "Provided technical support for hardware, software, and networks, handling fault diagnosis and resolution, preventive maintenance, and system backups. Also generated detailed reports on the status of equipment and computer systems.",
+      "highlights": [
+        "Hardware and software fault diagnosis and resolution",
+        "Technical report writing on system issues",
+        "Network support, router configuration, and connectivity",
+        "Backup management and end-device support"
+      ]
+    },
+    {
+      "name": "Lan Center Batlenet",
+      "position": "IT Technician Assistant",
+      "startDate": "2020-05-22",
+      "endDate": "2021-06-12",
+      "summary": "Supported the installation, maintenance, and technical support of computer equipment. Provided direct customer service, resolving incidents in real-time and collaborating in technology inventory management.",
+      "highlights": [
+        "Computer equipment installation and configuration",
+        "Preventive and corrective hardware/software maintenance",
+        "Technical user support and incident resolution",
+        "Structured cabling and local connectivity support",
+        "Equipment inventory organization and updates"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "CIBERTEC",
+      "area": "Computing and Information Technology Solutions",
+      "studyType": "Technical Degree",
+      "startDate": "2015-09-01",
+      "endDate": "2019-12-01",
+      "aptitudes": [
+        "Technical support in hardware and software",
+        "Web application development (Java Programming)",
+        "Android application development (Java Programming)",
+        "Object-Oriented Programming (OOP)",
+        "SQL Server databases",
+        "Software Testing and Integration Projects"
+      ]
+    },
+    {
+      "institution": "Universidad Continental",
+      "area": "Systems and Computer Engineering",
+      "studyType": "Bachelor's Degree (In Progress)",
+      "startDate": "2023-07-18",
+      "endDate": null,
+      "aptitudes": [
+        "Information Systems",
+        "Project management",
+        "Software construction and testing",
+        "Computer architecture",
+        "Software architecture",
+        "CCNA 1"
+      ]
+    },
+    {
+      "institution": "Mitocode",
+      "area": "Java 17 Backend Developer, Software Engineering",
+      "studyType": "Certification",
+      "startDate": "2023-01-01",
+      "endDate": "2023-04-01",
+      "score": "19",
+      "aptitudes": [
+        "Functional Programming",
+        "Spring Boot and REST API development",
+        "Spring Data JPA - Database Management",
+        "Threads and concurrency",
+        "Unit testing with JUnit and Mock",
+        "Spring Security and API consumption",
+        "Integrations (Angular)"
+      ]
+    },
+    {
+      "institution": "Universidad Nacional de Ingeniería",
+      "area": "IT Technical Support Specialist, Information Technology",
+      "studyType": "Specialization",
+      "startDate": "2019-03-01",
+      "endDate": "2019-11-01",
+      "score": "19",
+      "aptitudes": [
+        "Networks",
+        "Technical support",
+        "Software installation",
+        "Hardware installation"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Java",
+      "level": "Advanced",
+      "keywords": [ "Backend", "Programming Language", "OOP" ]
+    },
+    {
+      "name": "Spring Boot",
+      "level": "Advanced",
+      "keywords": [ "Backend", "Java Framework", "REST API", "Microservices" ]
+    },
+    {
+      "name": "Angular",
+      "level": "Advanced",
+      "keywords": [ "Frontend", "TypeScript Framework", "SPA" ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Advanced",
+      "keywords": [ "Databases", "SQL", "Data Storage", "Backend" ]
+    },
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Web Development", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Web Development", "Frontend", "Responsive Design"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Web Development", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development", "Frontend", "CSS Framework", "Responsive Design"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development", "Backend", "JavaScript", "Server"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Advanced",
+      "keywords": [
+        "Databases", "SQL", "Data Storage", "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control", "Collaboration", "Source Code"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control", "Collaboration", "Source Code", "Git"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development", "Frontend", "React Framework", "SSR", "Static Generation"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development", "Frontend", "JavaScript Library", "UI"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Library Management System",
+      "isActive": true,
+      "description": "Web system for managing book loans and returns in libraries, developed as an academic project. Implemented with Spring Boot and MySQL, it allows registering books, users, and controlling loan history in real-time.",
+      "highlights": [
+        "Book registration and search by title, author, or category",
+        "Loan control, returns, and late penalties",
+        "User and role management (librarian and reader)",
+        "Developed with Spring Boot (backend) and MySQL"
+      ],
+      "github": "https://github.com/Emerson147/library-management"
+    },    
+    {
+      "name": "Importaciones DEN",
+      "isActive": true,
+      "description": "E-commerce built with Next.js and Tailwind CSS for an imported clothing store.",
+      "highlights": [
+        "Choose your own style",
+        "In development, payment gateway"
+      ],
+      "url": "https://importaciones-den.vercel.app/"
+    },
+    {
+      "name": "Licorería E&R",
+      "isActive": true,
+      "description": "Premium liquor e-commerce developed with Next.js and Tailwind CSS, including shopping cart system and payment gateway",
+      "highlights": [
+        "Product catalog with filters and search",
+        "Interactive shopping cart",
+        "Responsive and modern design",
+        "Payment system integration",
+        "Product administration panel"
+      ],
+      "url": "https://licoreria-e-r.vercel.app/",
+      "github": "https://github.com/Emerson147/licoreria-er"
+    },
+    {
+      "name": "API REST Todo App",
+      "isActive": false,
+      "description": "Task management application developed with Spring Boot and Angular, implementing REST architecture",
+      "highlights": [
+        "Complete CRUD for tasks",
+        "JWT authentication",
+        "Swagger documentation",
+        "Unit tests with JUnit"
+      ],
+      "github": "https://github.com/Emerson147/ApiTodoApp"
+    },
+    {
+      "name": "Effect Liquid",
+      "isActive": true,
+      "description": "Page with images and scrolling with water effect, tests were done with gsap",
+      "highlights": [
+        "Elegant and modern design",
+        "Liquid effect",
+        "Dark Mode"
+      ],
+      "url": "https://transitions-aqua.netlify.app/",
+      "github": "https://github.com/Emerson147/EffectLiquid"
+    },
+    {
+      "name": "Parallax Selva",
+      "isActive": true,
+      "description": "Interactive website with parallax effects, implemented with HTML, CSS, and JavaScript",
+      "highlights": [
+        "Smooth parallax effects",
+        "Custom animations",
+        "Immersive design with jungle theme"
+      ],
+      "url": "https://parallax-selva.netlify.app",
+      "github": "https://github.com/Emerson147/Parallax3DEffect"
+    }
+  ]
+}

@@ -1,17 +1,17 @@
 {
   "basics": {
     "name": "Emerson Quijada Rafael",
-    "label": "Estudiante de Ingeniería de Sistemas en la Universidad Continental, con conocimientos en Java y Spring Boot.",
+    "label": "Técnico Titulado en Computación | Desarrollador Full Stack (Java/Angular)",
     "image": "/me.jpg",
     "email": "emersontec147@gmail.com",
     "phone": "+51 935611092",
-    "url": "https://midu.dev",
-    "summary": "Estudiante de Ingeniería de Sistemas y técnico certificado en Computación y Soluciones Informáticas, con experiencia en desarrollo backend (Java, Spring Boot, SQL Server) y frontend (Angular, Astro). Especializado en la creación de aplicaciones web escalables mediante arquitecturas de microservicios y tecnologías cloud-native (AWS, Docker). Apasionado por integrar prácticas DevOps (CI/CD, automatización) para optimizar el ciclo de desarrollo. Busco oportunidades donde pueda aportar soluciones técnicas innovadoras y seguir creciendo profesionalmente en entornos colaborativos orientados a la alta performance.",
+    "url": "https://github.com/Emerson147",
+    "summary": "Técnico Titulado en Computación y Soluciones Informáticas y estudiante de Ingeniería de Sistemas. Desarrollador con experiencia en backend (Java, Spring Boot, SQL Server) y frontend (Angular, Astro). Especializado en la creación de aplicaciones web escalables mediante arquitecturas de microservicios y tecnologías cloud-native (AWS, Docker). Apasionado por integrar prácticas DevOps (CI/CD, automatización) para optimizar el ciclo de desarrollo. Busco oportunidades como Desarrollador Junior donde pueda aportar soluciones técnicas innovadoras y seguir creciendo profesionalmente.",
     "location": {
       "address": "",
-      "postalCode": "08820",
+      "postalCode": "12001",
       "city": "Huancayo",
-      "countryCode": "ES",
+      "countryCode": "PE",
       "region": "Peru"
     },
     "profiles": [
@@ -74,34 +74,37 @@
     }
 
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
   "education": [
     {
-    "institution": "Universidad Continental",
-    "area": "Ingeniería de Sistemas e Informática",
-    "studyType": "Grado de Estudios",
-    "startDate": "2023-07-18",
-    "endDate": null,
-    "aptitudes": [
-      "Sistemas de la Informacion",
-      "Gestión de proyectos",
-      "Contruccion y pruebas de Software",
-      "Arquitectura del Computador",
-      "Arquitectura de Software",
-      "CCNA 1"
-
-    ]
-  },
+      "institution": "CIBERTEC",
+      "area": "Técnico en Computación y Soluciones Informáticas",
+      "studyType": "Técnico Titulado",
+      "startDate": "2015-09-01",
+      "endDate": "2019-12-01",
+      "aptitudes": [
+        "Soporte técnico en hardware y software",
+        "Desarrollo de aplicaciones web (Programacion Java)",
+        "Desarrollo de aplicaciones Android (Programacion Java)",
+        "Programación orientada a objetos (POO)",
+        "Base de datos SQL Server",
+        "Pruebas de Software e proyectos Integrador"
+      ]
+    },
+    {
+      "institution": "Universidad Continental",
+      "area": "Ingeniería de Sistemas e Informática",
+      "studyType": "Grado de Estudios (En curso)",
+      "startDate": "2023-07-18",
+      "endDate": null,
+      "aptitudes": [
+        "Sistemas de la Informacion",
+        "Gestión de proyectos",
+        "Construcción y pruebas de Software",
+        "Arquitectura del Computador",
+        "Arquitectura de Software",
+        "CCNA 1"
+      ]
+    },
     {
       "institution": "Mitocode",
       "area": "Java 17 Backend Developer, Ingeniería de Software",
@@ -120,21 +123,6 @@
       ]
     },
     {
-      "institution": "CIBERTEC",
-      "area": "Técnico en Computación y Soluciones Informáticas",
-      "studyType": "Técnico Titulado",
-      "startDate": "2015-09-01",
-      "endDate": "2019-12-01",
-      "aptitudes": [
-        "Soporte técnico en hardware y software",
-        "Desarrollo de aplicaciones web (Programacion Java)",
-        "Desarrollo de aplicaciones Android (Programacion Java)",
-        "Programación orientada a objetos (POO)",
-        "Base de datos SQL Server",
-        "Puebas de Software e proyectos Integrador"
-      ]
-    },
-    {
       "institution": "Universidad Nacional de Ingeniería",
       "area": "Especialista en Soporte Técnico TI, Tecnología de la Información",
       "studyType": "Especialización",
@@ -149,26 +137,27 @@
       ]
     }
   ],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
   "skills": [
+    {
+      "name": "Java",
+      "level": "Avanzado",
+      "keywords": [ "Backend", "Lenguaje de Programación", "POO" ]
+    },
+    {
+      "name": "Spring Boot",
+      "level": "Avanzado",
+      "keywords": [ "Backend", "Java Framework", "API REST", "Microservicios" ]
+    },
+    {
+      "name": "Angular",
+      "level": "Avanzado",
+      "keywords": [ "Frontend", "TypeScript Framework", "SPA" ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Avanzado",
+      "keywords": [ "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend" ]
+    },
     {
       "name": "HTML",
       "level": "Master",
@@ -257,40 +246,16 @@
       "fluency": "Advanced"
     }
   ],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
   "projects": [
-    {
-      "name": "La Peruanita",
-      "isActive": true,
-      "description": "Sistema web de ventas y gestión de calzado para hombres, mujeres y niños, desarrollado con Spring Boot, Angular y PostgreSQL. Administra distintos tipos de calzado (zapatillas, zapatos de vestir, tacones, etc.) mediante una estructura jerárquica: producto → color → talla.",
-      "highlights": [
-        "Gestión integral de inventario, ventas, clientes, facturación, pedidos y reportes.",
-        "Frontend desarrollado en Angular, backend en Spring Boot y base de datos PostgreSQL.",
-        "Despliegue en la nube: Vercel (frontend) y Render (backend)."
-      ],
-      "url": "https://gestion-inventario-frontend.vercel.app/",
-      "github": "https://github.com/Emerson147/gestion-inventario-ely"
-    },
     {
       "name": "Library Management System",
       "isActive": true,
-      "description": "Sistema web para la gestión de préstamos y devoluciones de libros en bibliotecas, desarrollado como proyecto académico. Implementado con Spring Boot, Angular y MySQL, permite registrar libros, usuarios y controlar el historial de préstamos en tiempo real.",
+      "description": "Sistema web para la gestión de préstamos y devoluciones de libros en bibliotecas, desarrollado como proyecto académico. Implementado con Spring Boot y MySQL, permite registrar libros, usuarios y controlar el historial de préstamos en tiempo real.",
       "highlights": [
         "Registro y búsqueda de libros por título, autor o categoría.",
         "Control de préstamos, devoluciones y penalizaciones por retraso.",
         "Gestión de usuarios y roles (bibliotecario y lector).",
-        "Desarrollado con Angular (frontend), Spring Boot (backend) y MySQL.",
-        "Despliegue en Render (backend) y Vercel (frontend)."
+        "Desarrollado con Spring Boot (backend) y MySQL."
       ],
       "github": "https://github.com/Emerson147/library-management"
     },    

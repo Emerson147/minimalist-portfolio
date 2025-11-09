@@ -11,13 +11,35 @@ import Git from "@/icons/git.astro"
 import GitHub from "@/icons/GitHub.astro"
 import Tailwind from "@/icons/tailwind.astro"
 import Next from "@/icons/next.astro"
-import { skills } from "@cv"
 import Swift from "@/icons/swift.astro"
 import SwiftUI from "@/icons/swiftui.astro"
 import Kotlin from "@/icons/kotlin.astro"
 import Flutter from "@/icons/flutter.astro"
+import Java from "@/icons/java.astro"
+import SpringBoot from "@/icons/SpringBoot.astro"
+import Angular from "@/icons/angular.astro"
+import PostgreSQL from "@/icons/postgresql.astro"
+import { useTranslations } from '@/i18n/utils';
+
+interface Props {
+  lang?: string;
+}
+
+const { lang = 'es' } = Astro.props;
+const t = useTranslations(lang as 'es' | 'en');
+
+// Cargar el CV según el idioma
+const cvModule = lang === 'en' 
+  ? await import('../../../cv.en.json')
+  : await import('../../../cv.json');
+
+const { skills } = cvModule.default;
 
 const SKILLS_ICONS: Record<string, any> = {
+  Java,
+  SpringBoot,
+  Angular,
+  PostgreSQL,
   HTML,
   CSS,
   JavaScript,
@@ -36,11 +58,12 @@ const SKILLS_ICONS: Record<string, any> = {
 }
 ---
 
-<Section title="Habilidades">
+<Section title={t('skills.title')} id="habilidades">
   <ul>
     {
       skills.map(({ name }) => {
-        const iconName = name === "Next.js" ? "Next" : name
+        let iconName = name === "Next.js" ? "Next" : name
+        iconName = iconName === "Spring Boot" ? "SpringBoot" : iconName
         const Icon = SKILLS_ICONS[iconName]
 
         return (
@@ -71,5 +94,15 @@ const SKILLS_ICONS: Record<string, any> = {
     font-weight: 500;
     gap: 4px;
     padding: 0.2rem 0.6rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  :global(.dark) li {
+    background: #2a2a2a;
+    color: #e5e5e5;
+  }
+
+  :global(.dark) li svg {
+    filter: brightness(1.2);
   }
 </style>

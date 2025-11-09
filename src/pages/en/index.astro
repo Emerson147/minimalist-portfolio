@@ -11,14 +11,15 @@ import KeyboardManager from '@/components/KeyboardManager.astro';
 import ThemeIcon from '@/components/ThemeIcon.astro';
 import LanguageSelector from '@/components/LanguageSelector.astro';
 
-import { basics } from "@cv"
-const { name, label, summary } = basics
+import cvData from '../../../cv.en.json';
+const { basics } = cvData;
+const { name, label, summary } = basics;
 ---
 
 <Layout 
-	title={`CV de ${name} - ${label}`} 
+	title={`CV of ${name} - ${label}`} 
 	description={summary}
-	lang="es"
+	lang="en"
 	basics={basics}
 >
 
@@ -30,12 +31,12 @@ const { name, label, summary } = basics
 	</header>
 
 	<main>
-		<Hero />
-		<About />
-		<Experience />
-		<Education />
-		<Projects />
-		<Skills />
+		<Hero lang="en" />
+		<About lang="en" />
+		<Experience lang="en" />
+		<Education lang="en" />
+		<Projects lang="en" />
+		<Skills lang="en" />
 	</main>
 
 
@@ -62,9 +63,4 @@ const { name, label, summary } = basics
 		width: 100%;
 	}
 	
-	@media (width <= 700px) {
-    main {
-      padding: 2rem;
-    }
-  }
 </style>

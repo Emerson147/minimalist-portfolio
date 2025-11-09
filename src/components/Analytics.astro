@@ -1,0 +1,33 @@
+---
+// Este componente agregará Vercel Analytics cuando esté desplegado en Vercel
+// También puedes agregar Google Analytics aquí
+---
+
+<!-- Vercel Analytics -->
+<script>
+  // Vercel Analytics se carga automáticamente en producción
+  // No necesitas agregar nada aquí a menos que quieras personalizar
+</script>
+
+<!-- Google Analytics (Opcional) -->
+<!-- Descomentalas líneas siguientes y reemplaza G-XXXXXXXXXX con tu ID de Google Analytics -->
+<!-- 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+-->
+
+<!-- Microsoft Clarity (Opcional - Heatmaps y grabaciones gratis) -->
+<!-- 
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "TU_CLARITY_ID");
+</script>
+-->

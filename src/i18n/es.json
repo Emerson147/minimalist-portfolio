@@ -1,0 +1,36 @@
+{
+  "nav": {
+    "about": "Sobre mi",
+    "experience": "Experiencia laboral",
+    "education": "Educación",
+    "projects": "Proyectos",
+    "skills": "Habilidades"
+  },
+  "hero": {
+    "available": "Disponible para trabajar"
+  },
+  "about": {
+    "title": "Sobre mi"
+  },
+  "experience": {
+    "title": "Experiencia laboral",
+    "current": "Actual"
+  },
+  "education": {
+    "title": "Educación"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "viewProject": "Ver proyecto",
+    "sourceCode": "Código fuente"
+  },
+  "skills": {
+    "title": "Habilidades"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados"
+  },
+  "meta": {
+    "cvTitle": "CV de {name} - {label}"
+  }
+}

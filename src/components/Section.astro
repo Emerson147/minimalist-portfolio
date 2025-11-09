@@ -1,9 +1,9 @@
 ---
-const { title } = Astro.props
+const { title, id } = Astro.props
 ---
 
 
-<section>
+<section id={id} class="fade-in">
    {title && <h2>{title}</h2>}
    <slot />
 </section>
@@ -21,4 +21,46 @@ const { title } = Astro.props
       font-size: 1.5rem;
    }
 
+   /* Animaciones de entrada */
+   .fade-in {
+      opacity: 0;
+      transform: translateY(15px);
+      transition: opacity 0.5s ease, transform 0.5s ease;
+   }
+
+   .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+   }
+
+   /* Reducir movimiento si el usuario lo prefiere */
+   @media (prefers-reduced-motion: reduce) {
+      .fade-in {
+         opacity: 1;
+         transform: none;
+         transition: none;
+      }
+   }
 </style>
+
+<script>
+  // Observar secciones para animar cuando entran al viewport
+  const sections = document.querySelectorAll('.fade-in');
+
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, observerOptions);
+
+  sections.forEach(section => {
+    observer.observe(section);
+  });
+</script>

@@ -4,8 +4,8 @@
 
 ¡Hola! Soy estudiante de Ingeniería de Sistemas en la Universidad Continental, cursando el octavo ciclo. Me especializo en desarrollo backend con Java y Spring Boot.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-migattedev-blue)](www.linkedin.com/in/migattedev)
-[![GitHub](https://img.shields.io/badge/GitHub-midudev-black)](https://github.com/midudev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-migattedev-blue)](https://www.linkedin.com/in/migattedev)
+[![GitHub](https://img.shields.io/badge/GitHub-Emerson147-black)](https://github.com/Emerson147)
 
 ## 🎯 Sobre mí
 
@@ -71,4 +71,4 @@ Portfolio personal construido con Astro
 - 🌍 Ubicación: Huancayo, Perú
 
 ---
-⭐️ From [migattedev](https://github.com/midudev)
+⭐️ From [Emerson147](https://github.com/Emerson147)

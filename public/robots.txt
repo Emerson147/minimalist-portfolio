@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://github.com/Emerson147/sitemap.xml
+
+# Disallow admin pages if any
+# Disallow: /admin/

@@ -1,12 +1,24 @@
 ---
 import Section from "../Section.astro";
+import { useTranslations } from '@/i18n/utils';
 
-import { basics } from '@cv'
-const {summary} = basics
+interface Props {
+  lang?: string;
+}
 
+const { lang = 'es' } = Astro.props;
+const t = useTranslations(lang as 'es' | 'en');
+
+// Cargar el CV según el idioma
+const cvModule = lang === 'en' 
+  ? await import('../../../cv.en.json')
+  : await import('../../../cv.json');
+
+const { basics } = cvModule.default;
+const { summary } = basics;
 ---
 
-<Section title="Sobre mi">
+<Section title={t('about.title')} id="sobre-mi">
    <p>
       {summary}
    </p>

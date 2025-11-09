@@ -1,17 +1,30 @@
 ---
 import Section from "../Section.astro"
+import { useTranslations } from '@/i18n/utils';
 
-import { work } from "@cv"
+interface Props {
+  lang?: string;
+}
+
+const { lang = 'es' } = Astro.props;
+const t = useTranslations(lang as 'es' | 'en');
+
+// Cargar el CV según el idioma
+const cvModule = lang === 'en' 
+  ? await import('../../../cv.en.json')
+  : await import('../../../cv.json');
+
+const { work } = cvModule.default;
 ---
 
-<Section title="Experiencia laboral">
+<Section title={t('experience.title')} id="experiencia">
   <ul>
     {
       work.map(
         ({ name, startDate, endDate, position, summary, highlights }) => {
           const startYear = new Date(startDate).getFullYear()
           const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Actual"
+            endDate != null ? new Date(endDate).getFullYear() : t('experience.current')
 
           return (
             <li>
@@ -72,6 +85,10 @@ import { work } from "@cv"
   list-style: none;
 }
 
+:global(.dark) article ul {
+  color: #a0a0a0;
+}
+
 article ul li {
   position: relative;
   margin-bottom: 6px;
@@ -83,17 +100,27 @@ article ul li::before {
   position: absolute;
   left: 0;
   top: 0;
-  color: #4CAF50; /* o tu color de acento */
+  color: #4CAF50;
   font-size: 0.75rem;
 }
 
   article h3 {
     font-weight: 600;
     color: #111;
+    transition: color 0.3s ease;
+  }
+
+  :global(.dark) article h3 {
+    color: #f5f5f5;
   }
 
   article a {
     color: #111;
+    transition: color 0.3s ease;
+  }
+
+  :global(.dark) article a {
+    color: #e5e5e5;
   }
 
   article a:hover {
@@ -103,6 +130,11 @@ article ul li::before {
   article h4 {
     color: #222;
     font-weight: 400;
+    transition: color 0.3s ease;
+  }
+
+  :global(.dark) article h4 {
+    color: #d0d0d0;
   }
 
   article p {
@@ -121,6 +153,11 @@ article ul li::before {
     font-size: 0.85rem;
     min-width: 102px;
     cursor: default;
+    transition: color 0.3s ease;
+  }
+
+  :global(.dark) time {
+    color: #a0a0a0;
   }
 
   [data-title]:hover:after {
@@ -147,6 +184,11 @@ article ul li::before {
     visibility: hidden;
     border-radius: 6px;
     transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+
+  :global(.dark) [data-title]:after {
+    background-color: #444;
+    border-color: #555;
   }
 
   [data-title] {
