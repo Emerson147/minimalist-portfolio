@@ -54,10 +54,7 @@
         "Frontend design and development with Angular",
         "Hierarchical inventory management: product → color → size",
         "Sales, invoicing, customers, and reports modules",
-        "Cloud deployment: Render (backend) and Vercel (frontend)",
-        "Backend repository: https://github.com/Emerson147/gestion-inventario-ely",
-        "Frontend repository: https://github.com/Emerson147/gestion-inventario-frontend",
-        "Demo: https://gestion-inventario-frontend.vercel.app/"
+        "Cloud deployment: Render (backend) and Vercel (frontend)"
       ]
     },
     {

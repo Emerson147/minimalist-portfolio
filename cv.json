@@ -6,7 +6,7 @@
     "email": "emersontec147@gmail.com",
     "phone": "+51 935611092",
     "url": "https://github.com/Emerson147",
-    "summary": "Técnico Titulado en Computación y Soluciones Informáticas y estudiante de Ingeniería de Sistemas. Desarrollador con experiencia en backend (Java, Spring Boot, SQL Server) y frontend (Angular, Astro). Especializado en la creación de aplicaciones web escalables mediante arquitecturas de microservicios y tecnologías cloud-native (AWS, Docker). Apasionado por integrar prácticas DevOps (CI/CD, automatización) para optimizar el ciclo de desarrollo. Busco oportunidades como Desarrollador Junior donde pueda aportar soluciones técnicas innovadoras y seguir creciendo profesionalmente.",
+    "summary": "Desarrollador Full Stack y Técnico Titulado, enfocado en construir aplicaciones web robustas y eficientes. Experiencia sólida desarrollando backends estructurados con Java, Spring Boot y bases de datos relacionales (PostgreSQL/SQL Server), integrados con interfaces modernas y optimizadas en Angular y Astro. Orientado a escribir código limpio y mantenible para resolver problemas de negocio reales, asegurando la calidad de la arquitectura de software y una excelente experiencia de usuario desde el diseño hasta la implementación.",
     "location": {
       "address": "",
       "postalCode": "12001",
@@ -54,10 +54,7 @@
         "Diseño y desarrollo del frontend con Angular",
         "Gestión jerárquica de inventario: producto → color → talla",
         "Módulos de ventas, facturación, clientes y reportes",
-        "Despliegue en la nube: Render (backend) y Vercel (frontend)",
-        "Repositorio backend: https://github.com/Emerson147/gestion-inventario-ely",
-        "Repositorio frontend: https://github.com/Emerson147/gestion-inventario-frontend",
-        "Demo: https://gestion-inventario-frontend.vercel.app/"
+        "Despliegue en la nube: Render (backend) y Vercel (frontend)"
       ]
     },
     {
