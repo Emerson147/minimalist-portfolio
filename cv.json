@@ -28,6 +28,21 @@
     ]
   },
   "work": [
+     {
+      "name": "Importaciones DENRAF",
+      "position": "Desarrollador Frontend Angular",
+      "startDate": "2025-10-01",
+      "endDate": "2026-01-31",
+      "summary": "Desarrollé un sistema de gestión empresarial orientado a pequeños y medianos negocios de venta e importación. Permite administrar productos, registrar ventas mediante un punto de venta (POS) intuitivo, controlar el inventario, gestionar clientes, generar reportes exportables y visualizar métricas del negocio en tiempo real. La aplicación opera con soporte offline-first gracias a IndexedDB y Service Workers, sincronizando los datos con la nube (Supabase/PostgreSQL) cuando la conexión es restaurada.",
+      "highlights": [
+        "Todos los componentes son standalone, eliminando la necesidad de NgModules.",
+        "Estado reactivo declarativo con Angular Signals: signal(), computed() y effect().",
+        "Lazy Loading en todas las rutas para optimizar el tiempo de carga inicial.",
+        "Facade Pattern en el módulo POS para separar la lógica de negocio de la vista.",
+        "Precarga inteligente con CustomPreloadingStrategy según prioridad de rutas.",
+        "Arquitectura offline-first con IndexedDB y Service Workers, sincronización con Supabase al reconectar."
+      ]
+    },
     {
       "name": "Calzados La Peruanita",
       "position": "Desarrollador Full Stack",
