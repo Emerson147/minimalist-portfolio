@@ -2,11 +2,11 @@
   "basics": {
     "name": "Emerson Quijada Rafael",
     "label": "Computer Science Graduate | Full Stack Developer (Java/Angular)",
-    "image": "/me.jpg",
+    "image": "/emerson_1.png",
     "email": "emersontec147@gmail.com",
     "phone": "+51 935611092",
     "url": "https://github.com/Emerson147",
-    "summary": "Full Stack Developer and Certified Technician, focused on building robust and efficient web applications. Solid experience developing structured backends with Java, Spring Boot, and relational databases (PostgreSQL/SQL Server), integrated with modern and optimized interfaces in Angular and Astro. Committed to writing clean and maintainable code to solve real business problems, ensuring software architecture quality and an excellent user experience from design through implementation.",
+    "summary": "Full Stack Developer focused on building scalable software and maintainable architectures that solve real business problems. Solid experience designing APIs and complete systems with Java, Spring Boot, and PostgreSQL, deployed with Docker and orchestrated alongside modern interfaces in Angular and Astro. I specialize in delivering high technical value through clean code, design patterns, and offline-first solutions to ensure an excellent user experience.",
     "location": {
       "address": "",
       "postalCode": "12001",
@@ -30,17 +30,16 @@
   "work": [
     {
       "name": "Importaciones DENRAF",
-      "position": "Angular Frontend Developer",
-      "startDate": "2025-10-01",
-      "endDate": "2026-01-31",
-      "summary": "Developed a business management system aimed at small and medium-sized import and retail businesses. Allows managing products, recording sales through an intuitive point-of-sale (POS), controlling inventory, managing customers, generating exportable reports, and visualizing real-time business metrics. The application runs with offline-first support using IndexedDB and Service Workers, syncing data to the cloud (Supabase/PostgreSQL) when the connection is restored.",
+      "position": "Full Stack Developer",
+      "startDate": "2025-01-01",
+      "endDate": "2026-12-31",
+      "summary": "Business management system for import and retail businesses in fairs. Complete Full Stack architecture with Angular 19 on the frontend and Spring Boot 3.5 / Java 21 on the backend, deployed in production with Docker on Digital Ocean.",
       "highlights": [
-        "All components are standalone, eliminating the need for NgModules.",
-        "Declarative reactive state with Angular Signals: signal(), computed() and effect().",
-        "Lazy Loading on all routes to optimize initial load time.",
-        "Facade Pattern in the POS module to separate business logic from the view.",
-        "Smart preloading with CustomPreloadingStrategy based on route priority.",
-        "Offline-first architecture with IndexedDB and Service Workers, syncing with Supabase on reconnect."
+        "Developed the core POS and Sales modules, handling fluid daily transactional processing using secure concurrency with @Version in Spring Data.",
+        "Created an Urgent Liquidation algorithm using the Strategy Pattern that optimized revenue and inventory turnover during key real-world fair days (Thursday/Sunday).",
+        "Implemented an offline-first architecture with IndexedDB and Service Workers, ensuring zero business interruptions in areas with low or no connectivity.",
+        "Designed a robust REST API using Hexagonal Architecture and DDD, secured with JWT and validated by unit tests (JUnit/Mockito), centralizing business logic for 7 modules.",
+        "Optimized frontend performance using Angular Signals and Lazy Loading, and deployed the complete ecosystem using Docker Compose on a Digital Ocean Droplet."
       ]
     },
     {
@@ -48,13 +47,12 @@
       "position": "Full Stack Developer",
       "startDate": "2024-12-23",
       "endDate": "2025-06-12",
-      "summary": "Designed and implemented a complete sales and inventory system for a footwear store, using Angular, Spring Boot, and PostgreSQL. The system allows managing products, colors, sizes, sales, orders, and invoicing, with deployment on Vercel and Render.",
+      "summary": "Led the end-to-end design and implementation of a cloud-based sales and inventory system using Angular, Spring Boot, and PostgreSQL, allowing the store to integrate its invoicing and logistics.",
       "highlights": [
-        "Backend development with Spring Boot and PostgreSQL",
-        "Frontend design and development with Angular",
-        "Hierarchical inventory management: product → color → size",
-        "Sales, invoicing, customers, and reports modules",
-        "Cloud deployment: Render (backend) and Vercel (frontend)"
+        "Architected the relational data model in PostgreSQL to support complex, hierarchical inventory management (product → color → size).",
+        "Developed secure RESTful APIs with Spring Boot to orchestrate invoicing, order management, and operational reporting for the business.",
+        "Built a reactive and modular UI in Angular, optimizing the administrator's workflows for stock and sales control.",
+        "Automated the deployment of the Full Stack ecosystem across multiple cloud environments (Render for the backend and Vercel for the frontend)."
       ]
     },
     {
@@ -245,6 +243,41 @@
       "keywords": [
         "Web Development", "Frontend", "JavaScript Library", "UI"
       ]
+    },
+    {
+      "name": "Docker",
+      "level": "Advanced",
+      "keywords": [ "Backend", "DevOps", "Containers" ]
+    },
+    {
+      "name": "Docker Compose",
+      "level": "Advanced",
+      "keywords": [ "Backend", "DevOps", "Containers" ]
+    },
+    {
+      "name": "JUnit / Mockito",
+      "level": "Advanced",
+      "keywords": [ "Backend", "Testing", "Java" ]
+    },
+    {
+      "name": "REST API",
+      "level": "Advanced",
+      "keywords": [ "Backend", "Architecture" ]
+    },
+    {
+      "name": "JWT",
+      "level": "Advanced",
+      "keywords": [ "Backend", "Security", "Authentication" ]
+    },
+    {
+      "name": "DDD",
+      "level": "Advanced",
+      "keywords": [ "Backend", "Architecture", "Software Design" ]
+    },
+    {
+      "name": "Hexagonal Architecture",
+      "level": "Advanced",
+      "keywords": [ "Backend", "Architecture", "Software Design" ]
     }
   ],
   "languages": [
@@ -293,42 +326,6 @@
       ],
       "url": "https://licoreria-e-r.vercel.app/",
       "github": "https://github.com/Emerson147/licoreria-er"
-    },
-    {
-      "name": "API REST Todo App",
-      "isActive": false,
-      "description": "Task management application developed with Spring Boot and Angular, implementing REST architecture",
-      "highlights": [
-        "Complete CRUD for tasks",
-        "JWT authentication",
-        "Swagger documentation",
-        "Unit tests with JUnit"
-      ],
-      "github": "https://github.com/Emerson147/ApiTodoApp"
-    },
-    {
-      "name": "Effect Liquid",
-      "isActive": true,
-      "description": "Page with images and scrolling with water effect, tests were done with gsap",
-      "highlights": [
-        "Elegant and modern design",
-        "Liquid effect",
-        "Dark Mode"
-      ],
-      "url": "https://transitions-aqua.netlify.app/",
-      "github": "https://github.com/Emerson147/EffectLiquid"
-    },
-    {
-      "name": "Parallax Selva",
-      "isActive": true,
-      "description": "Interactive website with parallax effects, implemented with HTML, CSS, and JavaScript",
-      "highlights": [
-        "Smooth parallax effects",
-        "Custom animations",
-        "Immersive design with jungle theme"
-      ],
-      "url": "https://parallax-selva.netlify.app",
-      "github": "https://github.com/Emerson147/Parallax3DEffect"
     }
   ]
 }
