@@ -302,20 +302,6 @@
       "github": "https://github.com/Emerson147/library-management"
     },
     {
-      "name": "Licorería E&R",
-      "isActive": true,
-      "description": "Premium liquor e-commerce developed with Next.js and Tailwind CSS, featuring a shopping cart system, search filters, and an admin panel.",
-      "highlights": [
-        "Product catalog with filters and search",
-        "Interactive shopping cart",
-        "Responsive and modern design",
-        "Payment system integration",
-        "Product administration panel"
-      ],
-      "url": "https://licoreria-e-r.vercel.app/",
-      "github": "https://github.com/Emerson147/licoreria-er"
-    },
-    {
       "name": "Importaciones DEN",
       "isActive": true,
       "description": "Server-side rendered e-commerce built with Next.js and Tailwind CSS for an imported clothing store.",
