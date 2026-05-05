@@ -1,68 +1,66 @@
 ---
-import Layout from '@/layouts/Layout.astro';
+import Layout from "@/layouts/Layout.astro";
 
-import About from '@/components/sections/About.astro';
-import Education from '@/components/sections/Education.astro';
-import Experience from '@/components/sections/Experience.astro';
-import Hero from '@/components/sections/Hero.astro';
-import Projects from '@/components/sections/Projects.astro';
-import Skills from '@/components/sections/Skills.astro';
-import KeyboardManager from '@/components/KeyboardManager.astro';
-import ThemeIcon from '@/components/ThemeIcon.astro';
-import LanguageSelector from '@/components/LanguageSelector.astro';
+import About from "@/components/sections/About.astro";
+import Education from "@/components/sections/Education.astro";
+import Experience from "@/components/sections/Experience.astro";
+import Hero from "@/components/sections/Hero.astro";
+import Projects from "@/components/sections/Projects.astro";
+import Skills from "@/components/sections/Skills.astro";
+import KeyboardManager from "@/components/KeyboardManager.astro";
+import ThemeIcon from "@/components/ThemeIcon.astro";
+import LanguageSelector from "@/components/LanguageSelector.astro";
 
-import { basics } from "@cv"
-const { name, label, summary } = basics
+import { basics } from "@cv";
+const { name, label, summary } = basics;
 ---
 
-<Layout 
-	title={`CV de ${name} - ${label}`} 
-	description={summary}
-	lang="es"
-	basics={basics}
+<Layout
+  title={`CV de ${name} - ${label}`}
+  description={summary}
+  lang="es"
+  basics={basics}
 >
+  <header class="no-print">
+    <nav>
+      <LanguageSelector />
+      <ThemeIcon />
+    </nav>
+  </header>
 
-	<header class="no-print">
-	<nav>
-		<LanguageSelector />
-		<ThemeIcon />
-	</nav>
-	</header>
+  <main>
+    <Hero />
+    <About />
+    <Experience />
+    <Education />
+    <Projects />
+    <Skills />
+  </main>
 
-	<main>
-		<Hero />
-		<About />
-		<Experience />
-		<Education />
-		<Projects />
-		<Skills />
-	</main>
-
-
-	<KeyboardManager /> 
+  <KeyboardManager />
 </Layout>
 
 <style>
-	header {
-		padding: 1rem 2rem;
-		display: flex;
-		justify-content: flex-end;
-		gap: 1rem;
-	}
+  header {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
 
-	nav {
-		display: flex;
-		gap: 1rem;
-		align-items: center;
-	}
+  nav {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
 
-	main {
-		padding: 2rem;
-		margin: auto;
-		width: 100%;
-	}
-	
-	@media (width <= 700px) {
+  main {
+    padding: 2rem;
+    margin: auto;
+    width: 100%;
+  }
+
+  @media (width <= 700px) {
     main {
       padding: 2rem;
     }

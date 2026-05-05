@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Emerson Quijada Rafael",
-    "label": "Técnico Titulado en Computación | Desarrollador Full Stack (Java/Angular)",
+    "label": "Desarrollador Full Stack · Java & Spring Boot · Angular | Sistemas en Producción",
     "image": "/emerson_1.png",
     "email": "emersontec147@gmail.com",
     "phone": "+51 935611092",
     "url": "https://github.com/Emerson147",
-    "summary": "Desarrollador Full Stack enfocado en construir software escalable y arquitecturas mantenibles que resuelvan problemas de negocio reales. Experiencia sólida diseñando APIs y sistemas completos con Java, Spring Boot y PostgreSQL, desplegados con Docker y orquestados junto a interfaces modernas en Angular y Astro. Me especializo en entregar un alto valor técnico mediante código limpio, patrones de diseño y soluciones offline-first para asegurar una excelente experiencia de usuario.",
+    "summary": "Desarrollador Full Stack con experiencia construyendo y desplegando sistemas de gestión empresarial en producción para negocios reales. Actualmente cursando Ingeniería de Sistemas en la Universidad Continental. Especializado en el ecosistema Java (Spring Boot 3.x, Java 21) con frontends en Angular 19 y PostgreSQL como base de datos principal. He diseñado APIs bajo Arquitectura Hexagonal y DDD, implementado soluciones offline-first con Service Workers para entornos sin conectividad, y automatizado despliegues con Docker Compose en Digital Ocean.",
     "location": {
       "address": "",
       "postalCode": "12001",
@@ -28,18 +28,19 @@
     ]
   },
   "work": [
-     {
+    {
       "name": "Importaciones DENRAF",
       "position": "Desarrollador Full Stack",
       "startDate": "2025-01-01",
-      "endDate": "2026-12-31",
-      "summary": "Sistema de gestión empresarial para negocios de importación y venta en ferias. Arquitectura completa Full Stack con Angular 19 en el frontend y Spring Boot 3.5 / Java 21 en el backend, desplegado en producción con Docker en Digital Ocean.",
+      "endDate": null,
+      "summary": "ERP en producción (Vercel + Digital Ocean) para un negocio real de importación y venta en ferias. Evolucionó de una aplicación Angular pura a una arquitectura Full Stack completa con Angular 19, Spring Boot 3.5 / Java 21, PostgreSQL y Docker Compose. Incluye +10 módulos: POS, historial, clientes, inventario con inteligencia financiera, dashboard, reportes con exportación a Excel/PDF, metas gamificadas por vendedor, sistema de notificaciones inteligentes, multi-moneda (PEN/USD), pagos QR y configuración empresarial.",
       "highlights": [
-        "Desarrollé los módulos core del POS y Ventas, gestionando el procesamiento transaccional fluido utilizando concurrencia segura con @Version en Spring Data.",
-        "Creé un algoritmo de Liquidación Urgente usando Strategy Pattern que optimizó los ingresos y la rotación de inventario en ferias reales los días clave (jueves/domingos).",
-        "Implementé una arquitectura offline-first con IndexedDB y Service Workers, garantizando cero interrupciones de negocio en zonas de nula o baja conectividad.",
-        "Diseñé una API REST robusta bajo Arquitectura Hexagonal y DDD, asegurada con JWT y validada por tests unitarios (JUnit/Mockito), centralizando la lógica de 7 módulos de negocio.",
-        "Optimicé el rendimiento del frontend usando Angular Signals y Lazy Loading, y automaticé el despliegue del ecosistema completo usando Docker Compose en Digital Ocean."
+        "Desarrollé el motor de POS y Ventas con historial transaccional, resolviendo concurrencia en operaciones simultáneas mediante control optimista con @Version en Spring Data JPA.",
+        "Diseñé un módulo de Inteligencia Financiera con Strategy Pattern que clasifica el inventario por salud (capital activo, lento y congelado) según ferias sin venta, y genera planes de liquidación automática para recuperar capital estancado.",
+        "Implementé un sistema de notificaciones inteligentes que analiza datos del negocio en tiempo real: alertas de stock bajo, detección de productos estrella, seguimiento de ventas y avisos de inactividad comercial, con filtrado por categoría (críticas, ventas, stock).",
+        "Arquitecté la API REST bajo Arquitectura Hexagonal y DDD, con autenticación JWT, control de acceso por roles (RBAC) y tests unitarios (JUnit/Mockito), centralizando la lógica de negocio de +10 módulos en producción.",
+        "Implementé arquitectura offline-first con IndexedDB y Service Workers para que el POS opere sin conexión — necesario porque las ferias tienen cobertura de red nula o intermitente.",
+        "Migré el frontend a Angular Signals y Lazy Loading, y automaticé el despliegue del stack completo con Docker Compose en un Droplet de Digital Ocean."
       ]
     },
     {
@@ -47,59 +48,28 @@
       "position": "Desarrollador Full Stack",
       "startDate": "2024-12-23",
       "endDate": "2025-06-12",
-      "summary": "Lideré el diseño e implementación end-to-end de un sistema de ventas e inventario en la nube usando Angular, Spring Boot y PostgreSQL, permitiendo a la tienda integrar su facturación y logística.",
+      "summary": "Sistema de ventas e inventario en producción para una tienda de calzados. Diseño e implementación end-to-end con Angular, Spring Boot y PostgreSQL, permitiendo a la tienda digitalizar su facturación, control de stock y logística.",
       "highlights": [
-        "Arquitecté el modelo de datos relacional en PostgreSQL para soportar la gestión de inventario jerárquica y escalable (producto → color → talla).",
-        "Desarrollé APIs RESTful seguras con Spring Boot para orquestar la facturación, gestión de pedidos y reportería operativa del cliente.",
-        "Construí una UI reactiva y modular en Angular, optimizando los flujos de trabajo del administrador para el control de stock y ventas.",
-        "Automaticé el despliegue del ecosistema Full Stack en múltiples entornos nube (Render para backend y Vercel para frontend)."
+        "Diseñé el modelo de datos relacional en PostgreSQL para gestión de inventario jerárquico y escalable (producto → color → talla).",
+        "Desarrollé APIs RESTful seguras con Spring Boot para orquestar facturación, gestión de pedidos y reportería operativa.",
+        "Construí una interfaz reactiva y modular en Angular, optimizando los flujos de trabajo del administrador para control de stock y ventas.",
+        "Automaticé el despliegue del ecosistema Full Stack en múltiples entornos nube (Render para backend, Vercel para frontend)."
       ]
     },
     {
-      "name": "Alarcon Lozano Ingenieros",
-      "position": "Asistente de Soporte Técnico y Redes",
-      "startDate": "2022-06-12",
-      "endDate": "2023-06-12",
-      "summary": "Brindé soporte técnico en hardware, software y redes, encargándome del diagnóstico y resolución de fallas, mantenimiento preventivo y respaldo de sistemas. También generé reportes detallados sobre el estado de los equipos y sistemas informáticos.",
-      "highlights": [
-        "Diagnóstico y solución de fallas de hardware y software.",
-        "Elaboración de reportes técnicos sobre problemas del sistema.",
-        "Soporte en redes, configuración de routers y conectividad.",
-        "Gestión de respaldos y soporte a dispositivos finales."
-      ]
-    },
-    {
-      "name": "Lan Center Batlenet",
-      "position": "Ayudante de Técnico Informático",
+      "name": "Alarcon Lozano Ingenieros · Lan Center Batlenet",
+      "position": "Técnico de Soporte TI y Redes",
       "startDate": "2020-05-22",
-      "endDate": "2021-06-12",
-      "summary": "Apoyé en la instalación, mantenimiento y soporte técnico de equipos informáticos. Brindé atención directa a usuarios, resolviendo incidencias en tiempo real y colaborando en la gestión del inventario tecnológico.",
+      "endDate": "2023-06-12",
+      "summary": "Roles de soporte técnico en hardware, software y redes que construyeron una base sólida en infraestructura, diagnóstico de sistemas y resolución de problemas — habilidades que hoy aplico en el diseño de arquitecturas de producción.",
       "highlights": [
-        "Instalación y configuración de equipos de cómputo.",
-        "Mantenimiento preventivo y correctivo de hardware/software.",
-        "Atención técnica a usuarios y resolución de incidencias.",
-        "Apoyo en cableado estructurado y conectividad local.",
-        "Organización y actualización del inventario de equipos."
+        "Diagnóstico y resolución de fallas de hardware, software y conectividad de red.",
+        "Configuración de routers, cableado estructurado y gestión de dispositivos finales.",
+        "Elaboración de reportes técnicos y gestión de respaldos de sistemas."
       ]
     }
-
   ],
   "education": [
-    {
-      "institution": "CIBERTEC",
-      "area": "Técnico en Computación y Soluciones Informáticas",
-      "studyType": "Técnico Titulado",
-      "startDate": "2015-09-01",
-      "endDate": "2019-12-01",
-      "aptitudes": [
-        "Soporte técnico en hardware y software",
-        "Desarrollo de aplicaciones web (Programacion Java)",
-        "Desarrollo de aplicaciones Android (Programacion Java)",
-        "Programación orientada a objetos (POO)",
-        "Base de datos SQL Server",
-        "Pruebas de Software e proyectos Integrador"
-      ]
-    },
     {
       "institution": "Universidad Continental",
       "area": "Ingeniería de Sistemas e Informática",
@@ -107,11 +77,11 @@
       "startDate": "2023-07-18",
       "endDate": null,
       "aptitudes": [
-        "Sistemas de la Informacion",
-        "Gestión de proyectos",
-        "Construcción y pruebas de Software",
-        "Arquitectura del Computador",
         "Arquitectura de Software",
+        "Construcción y pruebas de Software",
+        "Sistemas de la Información",
+        "Gestión de proyectos",
+        "Arquitectura del Computador",
         "CCNA 1"
       ]
     },
@@ -123,13 +93,28 @@
       "endDate": "2023-04-01",
       "score": "19",
       "aptitudes": [
-        "Programación Funcional",
         "Spring Boot y desarrollo de API REST",
         "Spring Data JPA - Gestión de bases de datos",
+        "Programación Funcional",
         "Hilos y concurrencia",
-        "Pruebas unitarias con JUnit y Mock",
+        "Pruebas unitarias con JUnit y Mockito",
         "Spring Security y consumo de APIs",
-        "Integraciones(Angular)"
+        "Integraciones con Angular"
+      ]
+    },
+    {
+      "institution": "CIBERTEC",
+      "area": "Técnico en Computación y Soluciones Informáticas",
+      "studyType": "Técnico Titulado",
+      "startDate": "2015-09-01",
+      "endDate": "2019-12-01",
+      "aptitudes": [
+        "Desarrollo de aplicaciones web (Java)",
+        "Desarrollo de aplicaciones Android (Java)",
+        "Programación orientada a objetos (POO)",
+        "Base de datos SQL Server",
+        "Soporte técnico en hardware y software",
+        "Pruebas de Software y proyectos integradores"
       ]
     },
     {
@@ -295,7 +280,7 @@
     {
       "name": "Library Management System",
       "isActive": true,
-      "description": "Sistema web para la gestión de préstamos y devoluciones de libros en bibliotecas, desarrollado como proyecto académico. Implementado con Spring Boot y MySQL, permite registrar libros, usuarios y controlar el historial de préstamos en tiempo real.",
+      "description": "Sistema web para la gestión de préstamos y devoluciones de libros en bibliotecas. Implementado con Spring Boot y MySQL, permite registrar libros, usuarios y controlar el historial de préstamos en tiempo real.",
       "highlights": [
         "Registro y búsqueda de libros por título, autor o categoría.",
         "Control de préstamos, devoluciones y penalizaciones por retraso.",
@@ -303,21 +288,22 @@
         "Desarrollado con Spring Boot (backend) y MySQL."
       ],
       "github": "https://github.com/Emerson147/library-management"
-    },    
+    },
     {
       "name": "Importaciones DEN",
       "isActive": true,
-      "description": "Ecommerce realizado con Next.js y Tailwind CSS para una tienda de ropa importadas.",
+      "description": "E-commerce con renderizado del lado del servidor desarrollado con Next.js y Tailwind CSS para una tienda de ropa importada.",
       "highlights": [
-        "Elige tu propio estilo",
-        "En desarrollo, pasarela de pagos"
+        "E-commerce SSR con Next.js y App Router",
+        "Catálogo de productos con filtros dinámicos y diseño responsive",
+        "Pasarela de pagos en integración"
       ],
       "url": "https://importaciones-den.vercel.app/"
     },
     {
       "name": "Licorería E&R",
       "isActive": true,
-      "description": "E-commerce de licores premium desarrollado con Next.js y Tailwind CSS, incluyendo sistema de carrito de compras y pasarela de pagos",
+      "description": "E-commerce de licores premium desarrollado con Next.js y Tailwind CSS, con sistema de carrito de compras, filtros de búsqueda y panel de administración.",
       "highlights": [
         "Catálogo de productos con filtros y búsqueda",
         "Carrito de compras interactivo",
