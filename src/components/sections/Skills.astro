@@ -19,6 +19,8 @@ import Java from "@/icons/java.astro"
 import SpringBoot from "@/icons/SpringBoot.astro"
 import Angular from "@/icons/angular.astro"
 import PostgreSQL from "@/icons/postgresql.astro"
+import Docker from "@/icons/docker.astro"
+import Hexagonal from "@/icons/hexagonal.astro"
 import { useTranslations } from '@/i18n/utils';
 
 interface Props {
@@ -40,6 +42,8 @@ const SKILLS_ICONS: Record<string, any> = {
   SpringBoot,
   Angular,
   PostgreSQL,
+  Docker,
+  Hexagonal,
   HTML,
   CSS,
   JavaScript,
@@ -64,6 +68,13 @@ const SKILLS_ICONS: Record<string, any> = {
       skills.map(({ name }) => {
         let iconName = name === "Next.js" ? "Next" : name
         iconName = iconName === "Spring Boot" ? "SpringBoot" : iconName
+        iconName = iconName === "Hexagonal Architecture" ? "Hexagonal" : iconName
+        iconName = iconName === "Arquitectura Hexagonal" ? "Hexagonal" : iconName
+        iconName = iconName === "Docker Compose" ? "Docker" : iconName
+        // Skills del ecosistema Spring Boot → usan el ícono de SpringBoot
+        if (["JUnit / Mockito", "REST API", "JWT", "DDD"].includes(iconName)) {
+          iconName = "SpringBoot"
+        }
         const Icon = SKILLS_ICONS[iconName]
 
         return (

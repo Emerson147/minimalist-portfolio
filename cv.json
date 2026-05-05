@@ -31,7 +31,7 @@
     {
       "name": "Importaciones DENRAF",
       "position": "Desarrollador Full Stack",
-      "startDate": "2026-10-01",
+      "startDate": "2025-12-01",
       "endDate": null,
       "summary": "ERP en producción (Vercel + Digital Ocean) para un negocio real de importación y venta en ferias. Evolucionó de una aplicación Angular pura a una arquitectura Full Stack completa con Angular 19, Spring Boot 3.5 / Java 21, PostgreSQL y Docker Compose. Incluye +10 módulos: POS, historial, clientes, inventario con inteligencia financiera, dashboard, reportes con exportación a Excel/PDF, metas gamificadas por vendedor, sistema de notificaciones inteligentes, multi-moneda (PEN/USD), pagos QR y configuración empresarial.",
       "highlights": [
@@ -46,8 +46,8 @@
     {
       "name": "Calzados La Peruanita",
       "position": "Desarrollador Full Stack",
-      "startDate": "2025-12-23",
-      "endDate": "2025-06-12",
+      "startDate": "2025-06-01",
+      "endDate": "2025-11-01",
       "summary": "Sistema de ventas e inventario en producción para una tienda de calzados. Diseño e implementación end-to-end con Angular, Spring Boot y PostgreSQL, permitiendo a la tienda digitalizar su facturación, control de stock y logística.",
       "highlights": [
         "Diseñé el modelo de datos relacional en PostgreSQL para gestión de inventario jerárquico y escalable (producto → color → talla).",
