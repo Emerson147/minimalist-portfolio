@@ -35,7 +35,8 @@ const cvModule = lang === 'en'
   ? await import('../../../cv.en.json')
   : await import('../../../cv.json');
 
-const { skills } = cvModule.default;
+const cv = cvModule.default as any;
+const { skills } = cv;
 
 const SKILLS_ICONS: Record<string, any> = {
   Java,
@@ -65,12 +66,14 @@ const SKILLS_ICONS: Record<string, any> = {
 <Section title={t('skills.title')} id="habilidades">
   <ul>
     {
-      skills.map(({ name }) => {
+      skills.map(({ name }: { name: string }) => {
         let iconName = name === "Next.js" ? "Next" : name
         iconName = iconName === "Spring Boot" ? "SpringBoot" : iconName
         iconName = iconName === "Hexagonal Architecture" ? "Hexagonal" : iconName
         iconName = iconName === "Arquitectura Hexagonal" ? "Hexagonal" : iconName
         iconName = iconName === "Docker Compose" ? "Docker" : iconName
+        iconName = iconName === "Angular (Signals)" ? "Angular" : iconName
+        iconName = iconName === "Tailwind 4" ? "Tailwind" : iconName
         // Skills del ecosistema Spring Boot → usan el ícono de SpringBoot
         if (["JUnit / Mockito", "REST API", "JWT", "DDD"].includes(iconName)) {
           iconName = "SpringBoot"

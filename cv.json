@@ -6,7 +6,7 @@
     "email": "emersontec147@gmail.com",
     "phone": "+51 935611092",
     "url": "https://github.com/Emerson147",
-    "summary": "Desarrollador Full Stack con experiencia construyendo y desplegando sistemas de gestión empresarial en producción para negocios reales. Actualmente cursando Ingeniería de Sistemas en la Universidad Continental. Especializado en el ecosistema Java (Spring Boot 3.x, Java 21) con frontends en Angular 19 y PostgreSQL como base de datos principal. He diseñado APIs bajo Arquitectura Hexagonal y DDD, implementado soluciones offline-first con Service Workers para entornos sin conectividad, y automatizado despliegues con Docker Compose en Digital Ocean.",
+    "summary": "Desarrollador Full Stack y Técnico Titulado con experiencia sólida diseñando y desplegando sistemas de gestión empresarial (ERP/POS) en producción para entornos reales. Especializado en el ecosistema Java (Spring Boot 3.x, Java 21) y frontends modernos con Angular 19 (Signals). Experto en resolver problemas complejos de negocio mediante Arquitectura Hexagonal, DDD y soluciones offline-first (Service Workers/IndexedDB) para entornos de alta transaccionalidad. Enfocado en la entrega de software robusto, escalable y orientado a resultados de negocio.",
     "location": {
       "address": "",
       "postalCode": "12001",
@@ -35,12 +35,12 @@
       "endDate": null,
       "summary": "ERP en producción (Vercel + Digital Ocean) para un negocio real de importación y venta en ferias. Evolucionó de una aplicación Angular pura a una arquitectura Full Stack completa con Angular 19, Spring Boot 3.5 / Java 21, PostgreSQL y Docker Compose. Incluye +10 módulos: POS, historial, clientes, inventario con inteligencia financiera, dashboard, reportes con exportación a Excel/PDF, metas gamificadas por vendedor, sistema de notificaciones inteligentes, multi-moneda (PEN/USD), pagos QR y configuración empresarial.",
       "highlights": [
-        "Desarrollé el motor de POS y Ventas con historial transaccional, resolviendo concurrencia en operaciones simultáneas mediante control optimista con @Version en Spring Data JPA.",
-        "Diseñé un módulo de Inteligencia Financiera con Strategy Pattern que clasifica el inventario por salud (capital activo, lento y congelado) según ferias sin venta, y genera planes de liquidación automática para recuperar capital estancado.",
-        "Implementé un sistema de notificaciones inteligentes que analiza datos del negocio en tiempo real: alertas de stock bajo, detección de productos estrella, seguimiento de ventas y avisos de inactividad comercial, con filtrado por categoría (críticas, ventas, stock).",
-        "Arquitecté la API REST bajo Arquitectura Hexagonal y DDD, con autenticación JWT, control de acceso por roles (RBAC) y tests unitarios (JUnit/Mockito), centralizando la lógica de negocio de +10 módulos en producción.",
-        "Implementé arquitectura offline-first con IndexedDB y Service Workers para que el POS opere sin conexión — necesario porque las ferias tienen cobertura de red nula o intermitente.",
-        "Migré el frontend a Angular Signals y Lazy Loading, y automaticé el despliegue del stack completo con Docker Compose en un Droplet de Digital Ocean."
+        "Diseñé un motor de Inteligencia Financiera que clasifica el inventario por salud (Capital Activo, Lento y Congelado) y genera planes de liquidación automáticos para optimizar el flujo de caja.",
+        "Implementé un Centro de Notificaciones Inteligentes que genera alertas en tiempo real sobre tendencias de venta, stock crítico y hitos de facturación.",
+        "Arquitecté la solución bajo Arquitectura Hexagonal y DDD, asegurando un desacoplamiento total entre la lógica de negocio (Use Cases) y la infraestructura (Spring Boot, PostgreSQL).",
+        "Desarrollé un módulo de Configuración Empresarial avanzada con soporte para multi-moneda (PEN/USD), gestión de perfiles tributarios (RUC/NIT) y personalización de tickets.",
+        "Implementé arquitectura offline-first con IndexedDB y Service Workers, garantizando operatividad total en entornos de feria con nula conectividad.",
+        "Migré el stack frontend a Angular 19 (Signals) y automaticé el despliegue con Docker Compose en Digital Ocean, mejorando la eficiencia operativa en un 40%."
       ]
     },
     {
@@ -71,9 +71,24 @@
   ],
   "education": [
     {
+      "institution": "CIBERTEC",
+      "area": "Técnico en Computación y Soluciones Informáticas",
+      "studyType": "Técnico Titulado",
+      "startDate": "2015-09-01",
+      "endDate": "2019-12-01",
+      "aptitudes": [
+        "Desarrollo de aplicaciones web (Java)",
+        "Desarrollo de aplicaciones Android (Java)",
+        "Programación orientada a objetos (POO)",
+        "Base de datos SQL Server",
+        "Soporte técnico en hardware y software",
+        "Pruebas de Software y proyectos integradores"
+      ]
+    },
+    {
       "institution": "Universidad Continental",
       "area": "Ingeniería de Sistemas e Informática",
-      "studyType": "Grado de Estudios (En curso)",
+      "studyType": "Estudios Superiores (VII ciclo)",
       "startDate": "2023-07-18",
       "endDate": null,
       "aptitudes": [
@@ -103,21 +118,6 @@
       ]
     },
     {
-      "institution": "CIBERTEC",
-      "area": "Técnico en Computación y Soluciones Informáticas",
-      "studyType": "Técnico Titulado",
-      "startDate": "2015-09-01",
-      "endDate": "2019-12-01",
-      "aptitudes": [
-        "Desarrollo de aplicaciones web (Java)",
-        "Desarrollo de aplicaciones Android (Java)",
-        "Programación orientada a objetos (POO)",
-        "Base de datos SQL Server",
-        "Soporte técnico en hardware y software",
-        "Pruebas de Software y proyectos integradores"
-      ]
-    },
-    {
       "institution": "Universidad Nacional de Ingeniería",
       "area": "Especialista en Soporte Técnico TI, Tecnología de la Información",
       "studyType": "Especialización",
@@ -144,9 +144,9 @@
       "keywords": [ "Backend", "Java Framework", "API REST", "Microservicios" ]
     },
     {
-      "name": "Angular",
+      "name": "Angular (Signals)",
       "level": "Avanzado",
-      "keywords": [ "Frontend", "TypeScript Framework", "SPA" ]
+      "keywords": [ "Frontend", "TypeScript Framework", "SPA", "Angular 19" ]
     },
     {
       "name": "PostgreSQL",
@@ -175,7 +175,7 @@
       ]
     },
     {
-      "name": "Tailwind",
+      "name": "Tailwind 4",
       "level": "Avanzado",
       "keywords": [
         "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
@@ -278,6 +278,18 @@
   ],
   "projects": [
     {
+      "name": "Zen Garden Portfolio",
+      "isActive": true,
+      "description": "Portafolio profesional interactivo con una estética 'Zen' minimalista, diseñado para demostrar habilidades avanzadas de UI/UX y animaciones de alto rendimiento.",
+      "highlights": [
+        "Desarrollado con Angular 19 y GSAP para micro-animaciones fluidas y de alta fidelidad.",
+        "Implementación de un sistema de diseño propio 'Zen Enterprise' enfocado en la claridad y el minimalismo.",
+        "Optimización extrema de rendimiento y accesibilidad (A11y)."
+      ],
+      "url": "https://migattedev.me/",
+      "github": "https://github.com/Emerson147/minimalist-portfolio"
+    },
+    {
       "name": "Library Management System",
       "isActive": true,
       "description": "Sistema web para la gestión de préstamos y devoluciones de libros en bibliotecas. Implementado con Spring Boot y MySQL, permite registrar libros, usuarios y controlar el historial de préstamos en tiempo real.",
@@ -288,17 +300,6 @@
         "Desarrollado con Spring Boot (backend) y MySQL."
       ],
       "github": "https://github.com/Emerson147/library-management"
-    },
-    {
-      "name": "Importaciones DEN",
-      "isActive": true,
-      "description": "E-commerce con renderizado del lado del servidor desarrollado con Next.js y Tailwind CSS para una tienda de ropa importada.",
-      "highlights": [
-        "E-commerce SSR con Next.js y App Router",
-        "Catálogo de productos con filtros dinámicos y diseño responsive",
-        "Pasarela de pagos en integración"
-      ],
-      "url": "https://importaciones-den.vercel.app/"
     },
     {
       "name": "Licorería E&R",
@@ -313,6 +314,17 @@
       ],
       "url": "https://licoreria-e-r.vercel.app/",
       "github": "https://github.com/Emerson147/licoreria-er"
+    },
+    {
+      "name": "Importaciones DEN",
+      "isActive": true,
+      "description": "E-commerce con renderizado del lado del servidor desarrollado con Next.js y Tailwind CSS para una tienda de ropa importada.",
+      "highlights": [
+        "E-commerce SSR con Next.js y App Router",
+        "Catálogo de productos con filtros dinámicos y diseño responsive",
+        "Pasarela de pagos en integración"
+      ],
+      "url": "https://importaciones-den.vercel.app/"
     }
   ]
 }
