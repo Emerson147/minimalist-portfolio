@@ -159,6 +159,10 @@ const locale = lang === 'en' ? 'en_US' : 'es_PE'
   }
 
   @media print {
+    @page {
+      margin: 1cm;
+    }
+
     /* Forzar tema claro al imprimir */
     html,
     html.dark {
@@ -189,7 +193,24 @@ const locale = lang === 'en' ? 'en_US' : 'es_PE'
       display: none !important;
     }
 
+    section,
     article {
+      break-inside: avoid;
+      page-break-inside: avoid;
+      margin-bottom: 1.5rem !important; /* Reducir margen entre secciones en PDF */
+    }
+
+    header {
+      margin-bottom: 1rem !important;
+    }
+
+    main {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+    /* Evitar que los items de listas se corten */
+    li {
       break-inside: avoid;
     }
   }
