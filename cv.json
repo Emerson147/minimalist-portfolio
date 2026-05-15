@@ -39,7 +39,7 @@
         "Implementé un Centro de Notificaciones Inteligentes que genera alertas en tiempo real sobre tendencias de venta, stock crítico y hitos de facturación.",
         "Arquitecté la solución bajo Arquitectura Hexagonal y DDD, asegurando un desacoplamiento total entre la lógica de negocio (Use Cases) y la infraestructura (Spring Boot, PostgreSQL).",
         "Desarrollé un módulo de Configuración Empresarial avanzada con soporte para multi-moneda (PEN/USD), gestión de perfiles tributarios (RUC/NIT) y personalización de tickets.",
-        "Implementé arquitectura offline-first con IndexedDB y Service Workers, garantizando operatividad total en entornos de feria con nula conectividad.",
+        "POS con resiliencia offline: cola de ventas persistida en localStorage con auto-sync, Service Worker para caching de assets — operativo en ferias sin conectividad",
         "Migré el stack frontend a Angular 19 (Signals) y automaticé el despliegue con Docker Compose en Digital Ocean, mejorando la eficiencia operativa en un 40%."
       ]
     },

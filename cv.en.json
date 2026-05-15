@@ -39,7 +39,7 @@
         "Implemented a Smart Notification Center that generates real-time alerts regarding sales trends, critical stock levels, and billing milestones.",
         "Architected the solution using Hexagonal Architecture and DDD, ensuring total decoupling between business logic (Use Cases) and infrastructure (Spring Boot, PostgreSQL).",
         "Developed an advanced Enterprise Configuration module with support for multi-currency (PEN/USD), tax profile management (RUC/NIT), and ticket customization.",
-        "Implemented offline-first architecture with IndexedDB and Service Workers, guaranteeing 100% operational availability in zero-connectivity environments.",
+        "POS con resiliencia offline: cola de ventas persistente en localStorage con auto-sync, Service Worker para caching de activos — operativo en ferias sin conectividad",
         "Migrated the frontend stack to Angular 19 (Signals) and automated deployment with Docker Compose on Digital Ocean, improving operational efficiency by 40%."
       ]
     },
